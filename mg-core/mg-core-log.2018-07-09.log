@@ -1,0 +1,1628 @@
+2018-07-09 11:15:01.765 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6f1b1745: startup date [Mon Jul 09 11:15:01 CST 2018]; root of context hierarchy
+2018-07-09 11:15:02.006 [background-preinit] INFO  org.hibernate.validator.internal.util.Version -
+				HV000001: Hibernate Validator 5.2.4.Final
+2018-07-09 11:15:02.225 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 11:15:02.272 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8f17d6ec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-09 11:15:03.962 [restartedMain] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Fetching config from server at: http://localhost:8888
+2018-07-09 11:15:05.051 [restartedMain] WARN  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/mg-core/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-07-09 11:15:05.056 [restartedMain] INFO  com.chinapnr.mg.core.App -
+				No active profile set, falling back to default profiles: default
+2018-07-09 11:15:05.092 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27e3fe2c: startup date [Mon Jul 09 11:15:05 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6f1b1745
+2018-07-09 11:15:06.906 [restartedMain] INFO  o.s.b.factory.support.DefaultListableBeanFactory -
+				Overriding bean definition for bean 'hystrixFeature' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.hystrix.HystrixCircuitBreakerConfiguration$HystrixWebConfiguration; factoryMethodName=hystrixFeature; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/hystrix/HystrixCircuitBreakerConfiguration$HystrixWebConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.hystrix.HystrixCircuitBreakerConfiguration; factoryMethodName=hystrixFeature; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/hystrix/HystrixCircuitBreakerConfiguration.class]]
+2018-07-09 11:15:07.495 [restartedMain] WARN  o.s.c.annotation.ConfigurationClassPostProcessor -
+				Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-07-09 11:15:07.839 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope -
+				BeanFactory id=613116c2-104e-36d5-91d2-2bd5f2ea4bad
+2018-07-09 11:15:07.855 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 11:15:08.510 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8f17d6ec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-09 11:15:09.470 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer -
+				Tomcat initialized with port(s): 8762 (http)
+2018-07-09 11:15:09.485 [restartedMain] INFO  org.apache.catalina.core.StandardService -
+				Starting service Tomcat
+2018-07-09 11:15:09.485 [restartedMain] INFO  org.apache.catalina.core.StandardEngine -
+				Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-07-09 11:15:09.627 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2018-07-09 11:15:09.627 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader -
+				Root WebApplicationContext: initialization completed in 4535 ms
+2018-07-09 11:15:10.144 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean -
+				Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-09 11:15:10.151 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'metricsFilter' to: [/*]
+2018-07-09 11:15:10.152 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-09 11:15:10.152 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-07-09 11:15:10.152 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-07-09 11:15:10.263 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@22da5fe9: startup date [Mon Jul 09 11:15:10 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27e3fe2c
+2018-07-09 11:15:10.298 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 11:15:10.965 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/mgcore/sendmg],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.chinapnr.mg.core.controller.MessageController.sendmg(java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-09 11:15:10.970 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-09 11:15:10.970 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-09 11:15:11.222 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27e3fe2c: startup date [Mon Jul 09 11:15:05 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6f1b1745
+2018-07-09 11:15:13.263 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2018-07-09 11:15:13.264 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-07-09 11:15:13.273 [restartedMain] INFO  com.netflix.config.DynamicPropertyFactory -
+				DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7de64115
+2018-07-09 11:15:15.069 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+2018-07-09 11:15:15.073 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/features || /features.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:15:15.074 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:15:15.075 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-07-09 11:15:15.077 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:15:15.079 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-07-09 11:15:15.079 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:15:15.080 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-07-09 11:15:15.082 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-07-09 11:15:15.083 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:15:15.086 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:15:15.087 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2018-07-09 11:15:15.092 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:15:15.093 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:15:15.094 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-07-09 11:15:15.095 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:15:15.097 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:15:15.100 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-07-09 11:15:15.101 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/hystrix.stream/**]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.cloud.netflix.endpoint.ServletWrappingEndpoint.handle(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-07-09 11:15:15.102 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:15:15.105 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2018-07-09 11:15:15.107 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2018-07-09 11:15:15.380 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2018-07-09 11:15:15.489 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2018-07-09 11:15:15.489 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-07-09 11:15:15.629 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Registering beans for JMX exposure on startup
+2018-07-09 11:15:15.629 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-07-09 11:15:15.629 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-07-09 11:15:15.629 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-07-09 11:15:15.629 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2018-07-09 11:15:15.645 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2018-07-09 11:15:15.645 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-07-09 11:15:15.660 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2018-07-09 11:15:15.676 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-07-09 11:15:15.692 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=27e3fe2c,type=ConfigurationPropertiesRebinder]
+2018-07-09 11:15:15.703 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2018-07-09 11:15:15.705 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Registering beans for JMX exposure on startup
+2018-07-09 11:15:15.993 [restartedMain] INFO  o.s.context.support.DefaultLifecycleProcessor -
+				Starting beans in phase 0
+2018-07-09 11:15:16.009 [restartedMain] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2018-07-09 11:15:17.004 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -
+				Using JSON encoding codec LegacyJacksonJson
+2018-07-09 11:15:17.004 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -
+				Using JSON decoding codec LegacyJacksonJson
+2018-07-09 11:15:17.198 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -
+				Using XML encoding codec XStreamXml
+2018-07-09 11:15:17.198 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -
+				Using XML decoding codec XStreamXml
+2018-07-09 11:15:17.582 [restartedMain] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2018-07-09 11:15:18.173 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Disable delta property : false
+2018-07-09 11:15:18.174 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Single vip registry refresh property : null
+2018-07-09 11:15:18.174 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Force full registry fetch : false
+2018-07-09 11:15:18.174 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Application is null : false
+2018-07-09 11:15:18.174 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Registered Applications size is zero : true
+2018-07-09 11:15:18.175 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Application version is -1: true
+2018-07-09 11:15:18.175 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Getting all instance registry info from the eureka server
+2018-07-09 11:15:18.339 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				The response status is 200
+2018-07-09 11:15:18.341 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Starting heartbeat executor: renew interval is: 30
+2018-07-09 11:15:18.345 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator -
+				InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-07-09 11:15:18.349 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Discovery Client initialized at timestamp 1531106118349 with initial instances count: 2
+2018-07-09 11:15:18.502 [restartedMain] INFO  o.s.c.n.eureka.EurekaDiscoveryClientConfiguration -
+				Registering application mg-core with eureka with status UP
+2018-07-09 11:15:18.504 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1531106118504, current=UP, previous=STARTING]
+2018-07-09 11:15:18.508 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 11:15:18.511 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+2018-07-09 11:15:18.511 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2018-07-09 11:15:18.526 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2018-07-09 11:15:18.526 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2018-07-09 11:15:18.526 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2018-07-09 11:15:18.542 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2018-07-09 11:15:18.542 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2018-07-09 11:15:18.542 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2018-07-09 11:15:18.542 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2018-07-09 11:15:18.557 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2018-07-09 11:15:18.557 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2018-07-09 11:15:18.557 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+2018-07-09 11:15:18.557 [restartedMain] INFO  o.s.context.support.DefaultLifecycleProcessor -
+				Starting beans in phase 2147483647
+2018-07-09 11:15:18.573 [restartedMain] INFO  o.s.c.n.h.HystrixCircuitBreakerConfiguration$HystrixMetricsPollerConfiguration -
+				Starting poller
+2018-07-09 11:15:18.589 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 11:15:18.604 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8762"]
+2018-07-09 11:15:18.633 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler [http-nio-8762]
+2018-07-09 11:15:18.648 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool -
+				Using a shared selector for servlet write/read
+2018-07-09 11:15:18.671 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer -
+				Tomcat started on port(s): 8762 (http)
+2018-07-09 11:15:18.673 [restartedMain] INFO  o.s.c.n.eureka.EurekaDiscoveryClientConfiguration -
+				Updating port to 8762
+2018-07-09 11:15:18.678 [restartedMain] INFO  com.chinapnr.mg.core.App -
+				Started App in 18.999 seconds (JVM running for 20.618)
+2018-07-09 11:15:18.679 [restartedMain] INFO  com.chinapnr.mg.core.App -
+				messageGateway startup success!
+2018-07-09 11:15:26.033 [Thread-2] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6f1b1745: startup date [Mon Jul 09 11:15:01 CST 2018]; root of context hierarchy
+2018-07-09 11:15:26.034 [Thread-2] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -
+				Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27e3fe2c: startup date [Mon Jul 09 11:15:05 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6f1b1745
+2018-07-09 11:15:26.035 [Thread-2] INFO  o.s.c.n.eureka.EurekaDiscoveryClientConfiguration -
+				Unregistering application mg-core with eureka with status DOWN
+2018-07-09 11:15:26.035 [Thread-2] WARN  com.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1531106126035, current=DOWN, previous=UP]
+2018-07-09 11:15:26.036 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 11:15:26.036 [Thread-2] INFO  com.netflix.discovery.DiscoveryClient -
+				Shutting down DiscoveryClient ...
+2018-07-09 11:15:26.037 [Thread-2] INFO  com.netflix.discovery.DiscoveryClient -
+				Unregistering ...
+2018-07-09 11:15:26.051 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 11:15:26.052 [Thread-2] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - deregister  status: 404
+2018-07-09 11:15:26.066 [Thread-2] INFO  com.netflix.discovery.DiscoveryClient -
+				Completed shut down of DiscoveryClient
+2018-07-09 11:15:26.068 [Thread-2] INFO  o.s.context.support.DefaultLifecycleProcessor -
+				Stopping beans in phase 2147483647
+2018-07-09 11:15:26.070 [Thread-2] INFO  o.s.context.support.DefaultLifecycleProcessor -
+				Stopping beans in phase 0
+2018-07-09 11:15:26.079 [Thread-2] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Unregistering JMX-exposed beans on shutdown
+2018-07-09 11:15:26.079 [Thread-2] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Unregistering JMX-exposed beans
+2018-07-09 11:15:26.080 [Thread-2] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Unregistering JMX-exposed beans on shutdown
+2018-07-09 11:15:26.080 [Thread-2] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Unregistering JMX-exposed beans
+2018-07-09 11:15:26.093 [Thread-2] WARN  com.netflix.config.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2018-07-09 11:15:26.094 [Thread-2] INFO  com.netflix.config.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-07-09 11:15:26.098 [Thread-2] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@22da5fe9: startup date [Mon Jul 09 11:15:10 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27e3fe2c
+2018-07-09 11:15:26.102 [Thread-2] WARN  o.s.c.a.AnnotationConfigApplicationContext -
+				Exception thrown from ApplicationListener handling ContextClosedEvent
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:216)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1081)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:280)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:250)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:174)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:137)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:383)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:389)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:337)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:994)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:961)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:70)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:272)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1033)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1009)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:961)
+	at org.springframework.boot.builder.ParentContextCloserApplicationListener$ContextCloserListener.onApplicationEvent(ParentContextCloserApplicationListener.java:102)
+	at org.springframework.boot.builder.ParentContextCloserApplicationListener$ContextCloserListener.onApplicationEvent(ParentContextCloserApplicationListener.java:86)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:383)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:337)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:994)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:961)
+	at org.springframework.boot.devtools.restart.Restarter.stop(Restarter.java:320)
+	at org.springframework.boot.devtools.restart.Restarter$2.call(Restarter.java:257)
+	at org.springframework.boot.devtools.restart.Restarter$2.call(Restarter.java:253)
+	at org.springframework.boot.devtools.restart.Restarter$LeakSafeThread.run(Restarter.java:620)
+2018-07-09 11:15:29.624 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@af06ede: startup date [Mon Jul 09 11:15:29 CST 2018]; root of context hierarchy
+2018-07-09 11:15:29.657 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 11:15:29.659 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8f17d6ec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-09 11:15:31.417 [restartedMain] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Fetching config from server at: http://localhost:8888
+2018-07-09 11:15:32.436 [restartedMain] WARN  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/mg-core/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-07-09 11:15:32.437 [restartedMain] INFO  com.chinapnr.mg.core.App -
+				No active profile set, falling back to default profiles: default
+2018-07-09 11:15:32.437 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3c3f9b1c: startup date [Mon Jul 09 11:15:32 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@af06ede
+2018-07-09 11:15:33.991 [restartedMain] INFO  o.s.b.factory.support.DefaultListableBeanFactory -
+				Overriding bean definition for bean 'hystrixFeature' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.hystrix.HystrixCircuitBreakerConfiguration$HystrixWebConfiguration; factoryMethodName=hystrixFeature; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/hystrix/HystrixCircuitBreakerConfiguration$HystrixWebConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.hystrix.HystrixCircuitBreakerConfiguration; factoryMethodName=hystrixFeature; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/hystrix/HystrixCircuitBreakerConfiguration.class]]
+2018-07-09 11:15:34.237 [restartedMain] WARN  o.s.c.annotation.ConfigurationClassPostProcessor -
+				Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-07-09 11:15:34.268 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope -
+				BeanFactory id=613116c2-104e-36d5-91d2-2bd5f2ea4bad
+2018-07-09 11:15:34.284 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 11:15:34.322 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8f17d6ec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-09 11:15:34.623 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer -
+				Tomcat initialized with port(s): 8762 (http)
+2018-07-09 11:15:34.623 [restartedMain] INFO  org.apache.catalina.core.StandardService -
+				Starting service Tomcat
+2018-07-09 11:15:34.623 [restartedMain] INFO  org.apache.catalina.core.StandardEngine -
+				Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-07-09 11:15:34.639 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2018-07-09 11:15:34.639 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader -
+				Root WebApplicationContext: initialization completed in 2202 ms
+2018-07-09 11:15:34.918 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean -
+				Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-09 11:15:34.919 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'metricsFilter' to: [/*]
+2018-07-09 11:15:34.919 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-09 11:15:34.920 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-07-09 11:15:34.920 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-07-09 11:15:34.990 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6e41e5d0: startup date [Mon Jul 09 11:15:34 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3c3f9b1c
+2018-07-09 11:15:35.026 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 11:15:35.328 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/mgcore/sendmg],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.chinapnr.mg.core.controller.MessageController.sendmg(java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-09 11:15:35.331 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-09 11:15:35.332 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-09 11:15:35.457 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3c3f9b1c: startup date [Mon Jul 09 11:15:32 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@af06ede
+2018-07-09 11:15:38.882 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2018-07-09 11:15:38.882 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2018-07-09 11:15:38.883 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:15:38.884 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:15:38.886 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:15:38.887 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:15:38.887 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+2018-07-09 11:15:38.888 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-07-09 11:15:38.890 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2018-07-09 11:15:38.891 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-07-09 11:15:38.893 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:15:38.894 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-07-09 11:15:38.896 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-07-09 11:15:38.897 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:15:38.898 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:15:38.900 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:15:38.901 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-07-09 11:15:38.902 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:15:38.903 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/hystrix.stream/**]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.cloud.netflix.endpoint.ServletWrappingEndpoint.handle(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-07-09 11:15:38.905 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/features || /features.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:15:38.907 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:15:38.908 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-07-09 11:15:39.042 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2018-07-09 11:15:39.108 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2018-07-09 11:15:39.108 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-07-09 11:15:39.212 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Registering beans for JMX exposure on startup
+2018-07-09 11:15:39.215 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-07-09 11:15:39.215 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-07-09 11:15:39.217 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-07-09 11:15:39.217 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2018-07-09 11:15:39.218 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2018-07-09 11:15:39.220 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-07-09 11:15:39.223 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2018-07-09 11:15:39.227 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-07-09 11:15:39.231 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=3c3f9b1c,type=ConfigurationPropertiesRebinder]
+2018-07-09 11:15:39.234 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2018-07-09 11:15:39.236 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Registering beans for JMX exposure on startup
+2018-07-09 11:15:39.471 [restartedMain] INFO  o.s.context.support.DefaultLifecycleProcessor -
+				Starting beans in phase 0
+2018-07-09 11:15:39.473 [restartedMain] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2018-07-09 11:15:39.474 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -
+				Using JSON encoding codec LegacyJacksonJson
+2018-07-09 11:15:39.474 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -
+				Using JSON decoding codec LegacyJacksonJson
+2018-07-09 11:15:39.490 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -
+				Using XML encoding codec XStreamXml
+2018-07-09 11:15:39.490 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -
+				Using XML decoding codec XStreamXml
+2018-07-09 11:15:39.552 [restartedMain] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2018-07-09 11:15:39.552 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Disable delta property : false
+2018-07-09 11:15:39.552 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Single vip registry refresh property : null
+2018-07-09 11:15:39.552 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Force full registry fetch : false
+2018-07-09 11:15:39.568 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Application is null : false
+2018-07-09 11:15:39.568 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Registered Applications size is zero : true
+2018-07-09 11:15:39.568 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Application version is -1: true
+2018-07-09 11:15:39.568 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Getting all instance registry info from the eureka server
+2018-07-09 11:15:39.568 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				The response status is 200
+2018-07-09 11:15:39.568 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Starting heartbeat executor: renew interval is: 30
+2018-07-09 11:15:39.568 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator -
+				InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-07-09 11:15:39.568 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Discovery Client initialized at timestamp 1531106139568 with initial instances count: 3
+2018-07-09 11:15:39.646 [restartedMain] INFO  o.s.c.n.eureka.EurekaDiscoveryClientConfiguration -
+				Registering application mg-core with eureka with status UP
+2018-07-09 11:15:39.646 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1531106139646, current=UP, previous=STARTING]
+2018-07-09 11:15:39.646 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 11:15:39.646 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+2018-07-09 11:15:39.646 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2018-07-09 11:15:39.646 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2018-07-09 11:15:39.663 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2018-07-09 11:15:39.666 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2018-07-09 11:15:39.669 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2018-07-09 11:15:39.672 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2018-07-09 11:15:39.674 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2018-07-09 11:15:39.685 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 11:15:39.685 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2018-07-09 11:15:39.688 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2018-07-09 11:15:39.696 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2018-07-09 11:15:39.699 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+2018-07-09 11:15:39.702 [restartedMain] INFO  o.s.context.support.DefaultLifecycleProcessor -
+				Starting beans in phase 2147483647
+2018-07-09 11:15:39.709 [restartedMain] INFO  o.s.c.n.h.HystrixCircuitBreakerConfiguration$HystrixMetricsPollerConfiguration -
+				Starting poller
+2018-07-09 11:15:39.718 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8762"]
+2018-07-09 11:15:39.718 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler [http-nio-8762]
+2018-07-09 11:15:39.720 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool -
+				Using a shared selector for servlet write/read
+2018-07-09 11:15:39.724 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer -
+				Tomcat started on port(s): 8762 (http)
+2018-07-09 11:15:39.725 [restartedMain] INFO  o.s.c.n.eureka.EurekaDiscoveryClientConfiguration -
+				Updating port to 8762
+2018-07-09 11:15:39.727 [restartedMain] INFO  com.chinapnr.mg.core.App -
+				Started App in 11.729 seconds (JVM running for 41.668)
+2018-07-09 11:15:39.728 [restartedMain] INFO  com.chinapnr.mg.core.App -
+				messageGateway startup success!
+2018-07-09 11:16:09.615 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 11:16:09.615 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 11:16:09.633 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 11:16:26.486 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4edfa651: startup date [Mon Jul 09 11:16:26 CST 2018]; root of context hierarchy
+2018-07-09 11:16:26.635 [background-preinit] INFO  org.hibernate.validator.internal.util.Version -
+				HV000001: Hibernate Validator 5.2.4.Final
+2018-07-09 11:16:26.942 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 11:16:26.988 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$48c98da2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-09 11:16:28.548 [restartedMain] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Fetching config from server at: http://localhost:8888
+2018-07-09 11:16:29.640 [restartedMain] WARN  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/mg-core/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-07-09 11:16:29.661 [restartedMain] INFO  com.chinapnr.mg.core.App -
+				No active profile set, falling back to default profiles: default
+2018-07-09 11:16:29.698 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5a328463: startup date [Mon Jul 09 11:16:29 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4edfa651
+2018-07-09 11:16:31.228 [restartedMain] INFO  o.s.b.factory.support.DefaultListableBeanFactory -
+				Overriding bean definition for bean 'hystrixFeature' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.hystrix.HystrixCircuitBreakerConfiguration$HystrixWebConfiguration; factoryMethodName=hystrixFeature; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/hystrix/HystrixCircuitBreakerConfiguration$HystrixWebConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.hystrix.HystrixCircuitBreakerConfiguration; factoryMethodName=hystrixFeature; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/hystrix/HystrixCircuitBreakerConfiguration.class]]
+2018-07-09 11:16:31.706 [restartedMain] WARN  o.s.c.annotation.ConfigurationClassPostProcessor -
+				Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-07-09 11:16:31.958 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope -
+				BeanFactory id=613116c2-104e-36d5-91d2-2bd5f2ea4bad
+2018-07-09 11:16:31.973 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 11:16:32.374 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$48c98da2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-09 11:16:33.313 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer -
+				Tomcat initialized with port(s): 8762 (http)
+2018-07-09 11:16:33.345 [restartedMain] INFO  org.apache.catalina.core.StandardService -
+				Starting service Tomcat
+2018-07-09 11:16:33.347 [restartedMain] INFO  org.apache.catalina.core.StandardEngine -
+				Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-07-09 11:16:33.490 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2018-07-09 11:16:33.491 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader -
+				Root WebApplicationContext: initialization completed in 3793 ms
+2018-07-09 11:16:33.986 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean -
+				Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-09 11:16:33.993 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'metricsFilter' to: [/*]
+2018-07-09 11:16:33.993 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-09 11:16:33.994 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-07-09 11:16:33.994 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-07-09 11:16:34.099 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5f339777: startup date [Mon Jul 09 11:16:34 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5a328463
+2018-07-09 11:16:34.135 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 11:16:34.587 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4f997ca4: startup date [Mon Jul 09 11:16:34 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5a328463
+2018-07-09 11:16:34.603 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 11:16:34.620 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1e877bf5: startup date [Mon Jul 09 11:16:34 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5a328463
+2018-07-09 11:16:34.636 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 11:16:34.821 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/mgcore/sendmg],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.chinapnr.mg.core.controller.MessageController.sendmg(java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-09 11:16:34.837 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-09 11:16:34.837 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-09 11:16:35.086 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5a328463: startup date [Mon Jul 09 11:16:29 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4edfa651
+2018-07-09 11:16:36.882 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2018-07-09 11:16:36.883 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-07-09 11:16:36.891 [restartedMain] INFO  com.netflix.config.DynamicPropertyFactory -
+				DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4f262c10
+2018-07-09 11:16:38.595 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-07-09 11:16:38.595 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:16:38.595 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:16:38.595 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:16:38.595 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-07-09 11:16:38.595 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:16:38.595 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:16:38.595 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/hystrix.stream/**]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.cloud.netflix.endpoint.ServletWrappingEndpoint.handle(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-07-09 11:16:38.595 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-07-09 11:16:38.595 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:16:38.595 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+2018-07-09 11:16:38.595 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-07-09 11:16:38.595 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-07-09 11:16:38.595 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:16:38.595 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2018-07-09 11:16:38.611 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:16:38.632 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2018-07-09 11:16:38.633 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2018-07-09 11:16:38.634 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-07-09 11:16:38.634 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:16:38.634 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/features || /features.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:16:38.634 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 11:16:38.912 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2018-07-09 11:16:39.027 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2018-07-09 11:16:39.027 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-07-09 11:16:39.166 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Registering beans for JMX exposure on startup
+2018-07-09 11:16:39.178 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-07-09 11:16:39.178 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-07-09 11:16:39.181 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-07-09 11:16:39.182 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2018-07-09 11:16:39.183 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2018-07-09 11:16:39.187 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-07-09 11:16:39.202 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2018-07-09 11:16:39.216 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-07-09 11:16:39.229 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=5a328463,type=ConfigurationPropertiesRebinder]
+2018-07-09 11:16:39.229 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2018-07-09 11:16:39.229 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Registering beans for JMX exposure on startup
+2018-07-09 11:16:39.482 [restartedMain] INFO  o.s.context.support.DefaultLifecycleProcessor -
+				Starting beans in phase 0
+2018-07-09 11:16:39.497 [restartedMain] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2018-07-09 11:16:40.536 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -
+				Using JSON encoding codec LegacyJacksonJson
+2018-07-09 11:16:40.537 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -
+				Using JSON decoding codec LegacyJacksonJson
+2018-07-09 11:16:40.702 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -
+				Using XML encoding codec XStreamXml
+2018-07-09 11:16:40.703 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -
+				Using XML decoding codec XStreamXml
+2018-07-09 11:16:41.030 [restartedMain] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2018-07-09 11:16:41.567 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Disable delta property : false
+2018-07-09 11:16:41.568 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Single vip registry refresh property : null
+2018-07-09 11:16:41.568 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Force full registry fetch : false
+2018-07-09 11:16:41.568 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Application is null : false
+2018-07-09 11:16:41.568 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Registered Applications size is zero : true
+2018-07-09 11:16:41.569 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Application version is -1: true
+2018-07-09 11:16:41.569 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Getting all instance registry info from the eureka server
+2018-07-09 11:16:41.726 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				The response status is 200
+2018-07-09 11:16:41.730 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Starting heartbeat executor: renew interval is: 30
+2018-07-09 11:16:41.734 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator -
+				InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-07-09 11:16:41.738 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Discovery Client initialized at timestamp 1531106201738 with initial instances count: 3
+2018-07-09 11:16:41.839 [restartedMain] INFO  o.s.c.n.eureka.EurekaDiscoveryClientConfiguration -
+				Registering application mg-core with eureka with status UP
+2018-07-09 11:16:41.839 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1531106201839, current=UP, previous=STARTING]
+2018-07-09 11:16:41.839 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+2018-07-09 11:16:41.839 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 11:16:41.854 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2018-07-09 11:16:41.854 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2018-07-09 11:16:41.880 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2018-07-09 11:16:41.881 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2018-07-09 11:16:41.881 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2018-07-09 11:16:41.881 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2018-07-09 11:16:41.912 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2018-07-09 11:16:41.912 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2018-07-09 11:16:41.912 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2018-07-09 11:16:41.912 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2018-07-09 11:16:41.928 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 11:16:41.928 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+2018-07-09 11:16:41.928 [restartedMain] INFO  o.s.context.support.DefaultLifecycleProcessor -
+				Starting beans in phase 2147483647
+2018-07-09 11:16:41.928 [restartedMain] INFO  o.s.c.n.h.HystrixCircuitBreakerConfiguration$HystrixMetricsPollerConfiguration -
+				Starting poller
+2018-07-09 11:16:41.963 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8762"]
+2018-07-09 11:16:41.978 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler [http-nio-8762]
+2018-07-09 11:16:41.995 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool -
+				Using a shared selector for servlet write/read
+2018-07-09 11:16:42.016 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer -
+				Tomcat started on port(s): 8762 (http)
+2018-07-09 11:16:42.018 [restartedMain] INFO  o.s.c.n.eureka.EurekaDiscoveryClientConfiguration -
+				Updating port to 8762
+2018-07-09 11:16:42.022 [restartedMain] INFO  com.chinapnr.mg.core.App -
+				Started App in 17.398 seconds (JVM running for 19.022)
+2018-07-09 11:16:42.023 [restartedMain] INFO  com.chinapnr.mg.core.App -
+				messageGateway startup success!
+2018-07-09 11:16:49.438 [http-nio-8762-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+				Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-09 11:16:49.438 [http-nio-8762-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+				FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-09 11:16:49.486 [http-nio-8762-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+				FrameworkServlet 'dispatcherServlet': initialization completed in 48 ms
+2018-07-09 11:16:49.838 [hystrix-mg-sms-1] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@155b7462: startup date [Mon Jul 09 11:16:49 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5a328463
+2018-07-09 11:16:49.925 [hystrix-mg-sms-1] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 11:16:50.355 [hystrix-mg-sms-1] INFO  com.netflix.config.ChainedDynamicProperty -
+				Flipping property: mg-sms.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-07-09 11:16:50.382 [hystrix-mg-sms-1] INFO  com.netflix.util.concurrent.ShutdownEnabledTimer -
+				Shutdown hook installed for: NFLoadBalancer-PingTimer-mg-sms
+2018-07-09 11:16:50.419 [hystrix-mg-sms-1] INFO  com.netflix.loadbalancer.BaseLoadBalancer -
+				Client:mg-sms instantiated a LoadBalancer:DynamicServerListLoadBalancer:{NFLoadBalancer:name=mg-sms,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2018-07-09 11:16:50.426 [hystrix-mg-sms-1] INFO  c.n.loadbalancer.DynamicServerListLoadBalancer -
+				Using serverListUpdater PollingServerListUpdater
+2018-07-09 11:16:50.430 [hystrix-mg-sms-1] INFO  c.n.loadbalancer.DynamicServerListLoadBalancer -
+				DynamicServerListLoadBalancer for client mg-sms initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mg-sms,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@7ca90133
+2018-07-09 11:16:50.672 [hystrix-mg-sms-1] INFO  com.chinapnr.mg.core.service.impl.SmsClientImpl -
+				进入fallback方法
+2018-07-09 11:16:50.697 [hystrix-mg-dd-1] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6e8526d7: startup date [Mon Jul 09 11:16:50 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5a328463
+2018-07-09 11:16:50.723 [hystrix-mg-dd-1] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 11:16:50.747 [hystrix-mg-dd-1] INFO  com.netflix.config.ChainedDynamicProperty -
+				Flipping property: mg-dd.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-07-09 11:16:50.750 [hystrix-mg-dd-1] INFO  com.netflix.util.concurrent.ShutdownEnabledTimer -
+				Shutdown hook installed for: NFLoadBalancer-PingTimer-mg-dd
+2018-07-09 11:16:50.751 [hystrix-mg-dd-1] INFO  com.netflix.loadbalancer.BaseLoadBalancer -
+				Client:mg-dd instantiated a LoadBalancer:DynamicServerListLoadBalancer:{NFLoadBalancer:name=mg-dd,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2018-07-09 11:16:50.752 [hystrix-mg-dd-1] INFO  c.n.loadbalancer.DynamicServerListLoadBalancer -
+				Using serverListUpdater PollingServerListUpdater
+2018-07-09 11:16:50.754 [hystrix-mg-dd-1] INFO  c.n.loadbalancer.DynamicServerListLoadBalancer -
+				DynamicServerListLoadBalancer for client mg-dd initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mg-dd,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@6c787aaa
+2018-07-09 11:16:50.783 [http-nio-8762-exec-1] ERROR com.chinapnr.mg.core.controller.MessageController -
+				=================
+2018-07-09 11:16:50.783 [http-nio-8762-exec-1] ERROR com.chinapnr.mg.core.controller.MessageController -
+				ServletWebRequest: uri=/mgcore/sendmg;client=0:0:0:0:0:0:0:1
+2018-07-09 11:16:50.784 [http-nio-8762-exec-1] ERROR com.chinapnr.mg.core.controller.MessageController -
+				null
+2018-07-09 11:16:50.784 [http-nio-8762-exec-1] ERROR com.chinapnr.mg.core.controller.MessageController -
+				
+2018-07-09 11:16:50.784 [http-nio-8762-exec-1] ERROR com.chinapnr.mg.core.controller.MessageController -
+				=============
+2018-07-09 11:16:50.784 [http-nio-8762-exec-1] ERROR com.chinapnr.mg.core.controller.MessageController -
+				com.netflix.hystrix.exception.HystrixRuntimeException: DdClient#sendMessage(Map) failed and no fallback available.
+2018-07-09 11:16:50.909 [http-nio-8762-exec-2] WARN  org.springframework.web.servlet.PageNotFound -
+				No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'dispatcherServlet'
+2018-07-09 11:17:11.769 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 11:17:11.769 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 11:17:11.778 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 11:17:41.802 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 11:17:41.802 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 11:17:41.814 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 11:18:11.823 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 11:18:11.824 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 11:18:11.830 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 11:18:41.852 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 11:18:41.852 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 11:18:41.864 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 11:19:11.883 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 11:19:11.883 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 11:19:11.889 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:42:56.706 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@39baea52: startup date [Mon Jul 09 13:42:56 CST 2018]; root of context hierarchy
+2018-07-09 13:42:56.977 [background-preinit] INFO  org.hibernate.validator.internal.util.Version -
+				HV000001: Hibernate Validator 5.3.5.Final
+2018-07-09 13:42:57.409 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 13:42:57.456 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$96d1cf0b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-09 13:42:59.049 [restartedMain] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Fetching config from server at: http://localhost:8888
+2018-07-09 13:43:00.159 [restartedMain] WARN  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/mg-core/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-07-09 13:43:00.167 [restartedMain] INFO  com.chinapnr.mg.core.App -
+				No active profile set, falling back to default profiles: default
+2018-07-09 13:43:00.192 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@58a7352: startup date [Mon Jul 09 13:43:00 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@39baea52
+2018-07-09 13:43:01.375 [restartedMain] INFO  o.s.b.factory.support.DefaultListableBeanFactory -
+				Overriding bean definition for bean 'hystrixFeature' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.hystrix.HystrixCircuitBreakerConfiguration$HystrixWebConfiguration; factoryMethodName=hystrixFeature; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/hystrix/HystrixCircuitBreakerConfiguration$HystrixWebConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.hystrix.HystrixCircuitBreakerConfiguration; factoryMethodName=hystrixFeature; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/hystrix/HystrixCircuitBreakerConfiguration.class]]
+2018-07-09 13:43:01.803 [restartedMain] WARN  o.s.c.annotation.ConfigurationClassPostProcessor -
+				Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-07-09 13:43:02.036 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope -
+				BeanFactory id=bb0fba1f-0499-3dfd-8e87-9c59b290f04b
+2018-07-09 13:43:02.052 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 13:43:02.334 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$96d1cf0b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-09 13:43:03.617 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer -
+				Tomcat initialized with port(s): 8762 (http)
+2018-07-09 13:43:03.629 [restartedMain] INFO  org.apache.catalina.core.StandardService -
+				Starting service [Tomcat]
+2018-07-09 13:43:03.752 [restartedMain] INFO  org.apache.catalina.core.StandardEngine -
+				Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-07-09 13:43:03.889 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2018-07-09 13:43:03.889 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader -
+				Root WebApplicationContext: initialization completed in 3698 ms
+2018-07-09 13:43:04.448 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean -
+				Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-09 13:43:04.455 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'metricsFilter' to: [/*]
+2018-07-09 13:43:04.456 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-09 13:43:04.456 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-07-09 13:43:04.456 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-07-09 13:43:04.581 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c93eb3a: startup date [Mon Jul 09 13:43:04 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@58a7352
+2018-07-09 13:43:04.615 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 13:43:05.113 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@61e895eb: startup date [Mon Jul 09 13:43:05 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@58a7352
+2018-07-09 13:43:05.137 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 13:43:05.160 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@66d6bede: startup date [Mon Jul 09 13:43:05 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@58a7352
+2018-07-09 13:43:05.182 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 13:43:05.371 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/mgcore/sendmg],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.chinapnr.mg.core.controller.MessageController.sendmg(java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-09 13:43:05.376 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-09 13:43:05.377 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-09 13:43:05.614 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@58a7352: startup date [Mon Jul 09 13:43:00 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@39baea52
+2018-07-09 13:43:08.286 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2018-07-09 13:43:08.286 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-07-09 13:43:08.297 [restartedMain] INFO  com.netflix.config.DynamicPropertyFactory -
+				DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4c30ff73
+2018-07-09 13:43:10.084 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 13:43:10.084 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-07-09 13:43:10.084 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-07-09 13:43:10.084 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 13:43:10.084 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-07-09 13:43:10.100 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 13:43:10.100 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 13:43:10.100 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 13:43:10.100 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2018-07-09 13:43:10.100 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/hystrix.stream/**]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.cloud.netflix.endpoint.ServletWrappingEndpoint.handle(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-07-09 13:43:10.100 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 13:43:10.100 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2018-07-09 13:43:10.100 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2018-07-09 13:43:10.100 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 13:43:10.117 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 13:43:10.118 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 13:43:10.119 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 13:43:10.120 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-07-09 13:43:10.121 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 13:43:10.122 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2018-07-09 13:43:10.124 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-07-09 13:43:10.124 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 13:43:10.126 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2018-07-09 13:43:10.126 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2018-07-09 13:43:10.127 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-07-09 13:43:10.128 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2018-07-09 13:43:10.392 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2018-07-09 13:43:10.517 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2018-07-09 13:43:10.518 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-07-09 13:43:10.645 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Registering beans for JMX exposure on startup
+2018-07-09 13:43:10.658 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-07-09 13:43:10.659 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-07-09 13:43:10.661 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-07-09 13:43:10.662 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2018-07-09 13:43:10.663 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2018-07-09 13:43:10.667 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-07-09 13:43:10.683 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2018-07-09 13:43:10.697 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-07-09 13:43:10.711 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=58a7352,type=ConfigurationPropertiesRebinder]
+2018-07-09 13:43:10.719 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2018-07-09 13:43:10.721 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Registering beans for JMX exposure on startup
+2018-07-09 13:43:10.951 [restartedMain] INFO  o.s.context.support.DefaultLifecycleProcessor -
+				Starting beans in phase 0
+2018-07-09 13:43:10.965 [restartedMain] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2018-07-09 13:43:12.695 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -
+				Using JSON encoding codec LegacyJacksonJson
+2018-07-09 13:43:12.696 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -
+				Using JSON decoding codec LegacyJacksonJson
+2018-07-09 13:43:12.821 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -
+				Using XML encoding codec XStreamXml
+2018-07-09 13:43:12.821 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -
+				Using XML decoding codec XStreamXml
+2018-07-09 13:43:13.170 [restartedMain] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2018-07-09 13:43:13.762 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Disable delta property : false
+2018-07-09 13:43:13.762 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Single vip registry refresh property : null
+2018-07-09 13:43:13.763 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Force full registry fetch : false
+2018-07-09 13:43:13.763 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Application is null : false
+2018-07-09 13:43:13.763 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Registered Applications size is zero : true
+2018-07-09 13:43:13.764 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Application version is -1: true
+2018-07-09 13:43:13.764 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Getting all instance registry info from the eureka server
+2018-07-09 13:43:13.900 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				The response status is 200
+2018-07-09 13:43:13.902 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Starting heartbeat executor: renew interval is: 30
+2018-07-09 13:43:13.904 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator -
+				InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-07-09 13:43:13.907 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Discovery Client initialized at timestamp 1531114993907 with initial instances count: 3
+2018-07-09 13:43:14.035 [restartedMain] INFO  o.s.c.n.eureka.EurekaDiscoveryClientConfiguration -
+				Registering application mg-core with eureka with status UP
+2018-07-09 13:43:14.036 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1531114994036, current=UP, previous=STARTING]
+2018-07-09 13:43:14.041 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:43:14.043 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+2018-07-09 13:43:14.052 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+2018-07-09 13:43:14.060 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2018-07-09 13:43:14.060 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2018-07-09 13:43:14.060 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2018-07-09 13:43:14.076 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2018-07-09 13:43:14.091 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2018-07-09 13:43:14.091 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+2018-07-09 13:43:14.123 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:43:14.123 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2018-07-09 13:43:14.123 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2018-07-09 13:43:14.123 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2018-07-09 13:43:14.123 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2018-07-09 13:43:14.138 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2018-07-09 13:43:14.138 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+2018-07-09 13:43:14.138 [restartedMain] INFO  o.s.context.support.DefaultLifecycleProcessor -
+				Starting beans in phase 2147483647
+2018-07-09 13:43:14.138 [restartedMain] INFO  o.s.c.n.h.HystrixCircuitBreakerConfiguration$HystrixMetricsPollerConfiguration -
+				Starting poller
+2018-07-09 13:43:14.182 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8762"]
+2018-07-09 13:43:14.195 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8762"]
+2018-07-09 13:43:14.206 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool -
+				Using a shared selector for servlet write/read
+2018-07-09 13:43:14.231 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer -
+				Tomcat started on port(s): 8762 (http)
+2018-07-09 13:43:14.232 [restartedMain] INFO  o.s.c.n.eureka.EurekaDiscoveryClientConfiguration -
+				Updating port to 8762
+2018-07-09 13:43:14.237 [restartedMain] INFO  com.chinapnr.mg.core.App -
+				Started App in 19.155 seconds (JVM running for 20.631)
+2018-07-09 13:43:14.237 [restartedMain] INFO  com.chinapnr.mg.core.App -
+				messageGateway startup success!
+2018-07-09 13:43:26.128 [http-nio-8762-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+				Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-09 13:43:26.128 [http-nio-8762-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+				FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-09 13:43:26.164 [http-nio-8762-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+				FrameworkServlet 'dispatcherServlet': initialization completed in 35 ms
+2018-07-09 13:43:26.453 [hystrix-mg-sms-1] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5652553c: startup date [Mon Jul 09 13:43:26 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@58a7352
+2018-07-09 13:43:26.514 [hystrix-mg-sms-1] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 13:43:26.680 [hystrix-mg-sms-1] INFO  com.netflix.config.ChainedDynamicProperty -
+				Flipping property: mg-sms.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-07-09 13:43:26.709 [hystrix-mg-sms-1] INFO  com.netflix.util.concurrent.ShutdownEnabledTimer -
+				Shutdown hook installed for: NFLoadBalancer-PingTimer-mg-sms
+2018-07-09 13:43:26.751 [hystrix-mg-sms-1] INFO  com.netflix.loadbalancer.BaseLoadBalancer -
+				Client:mg-sms instantiated a LoadBalancer:DynamicServerListLoadBalancer:{NFLoadBalancer:name=mg-sms,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2018-07-09 13:43:26.759 [hystrix-mg-sms-1] INFO  c.n.loadbalancer.DynamicServerListLoadBalancer -
+				Using serverListUpdater PollingServerListUpdater
+2018-07-09 13:43:26.765 [hystrix-mg-sms-1] INFO  c.n.loadbalancer.DynamicServerListLoadBalancer -
+				DynamicServerListLoadBalancer for client mg-sms initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mg-sms,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@24899101
+2018-07-09 13:43:26.934 [hystrix-mg-sms-1] INFO  com.chinapnr.mg.core.service.impl.SmsClientImpl -
+				进入fallback方法
+2018-07-09 13:43:26.967 [hystrix-mg-dd-1] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1cb44d54: startup date [Mon Jul 09 13:43:26 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@58a7352
+2018-07-09 13:43:26.998 [hystrix-mg-dd-1] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 13:43:27.016 [hystrix-mg-dd-1] INFO  com.netflix.config.ChainedDynamicProperty -
+				Flipping property: mg-dd.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-07-09 13:43:27.019 [hystrix-mg-dd-1] INFO  com.netflix.util.concurrent.ShutdownEnabledTimer -
+				Shutdown hook installed for: NFLoadBalancer-PingTimer-mg-dd
+2018-07-09 13:43:27.020 [hystrix-mg-dd-1] INFO  com.netflix.loadbalancer.BaseLoadBalancer -
+				Client:mg-dd instantiated a LoadBalancer:DynamicServerListLoadBalancer:{NFLoadBalancer:name=mg-dd,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2018-07-09 13:43:27.020 [hystrix-mg-dd-1] INFO  c.n.loadbalancer.DynamicServerListLoadBalancer -
+				Using serverListUpdater PollingServerListUpdater
+2018-07-09 13:43:27.057 [hystrix-mg-dd-1] INFO  com.netflix.config.ChainedDynamicProperty -
+				Flipping property: mg-dd.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-07-09 13:43:27.059 [hystrix-mg-dd-1] INFO  c.n.loadbalancer.DynamicServerListLoadBalancer -
+				DynamicServerListLoadBalancer for client mg-dd initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mg-dd,current list of Servers=[localhost:8765],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:localhost:8765;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@59d576b8
+2018-07-09 13:43:27.362 [hystrix-mg-wx-1] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6ec81ad8: startup date [Mon Jul 09 13:43:27 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@58a7352
+2018-07-09 13:43:27.402 [hystrix-mg-wx-1] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 13:43:27.416 [hystrix-mg-wx-1] INFO  com.netflix.config.ChainedDynamicProperty -
+				Flipping property: mg-wx.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-07-09 13:43:27.419 [hystrix-mg-wx-1] INFO  com.netflix.util.concurrent.ShutdownEnabledTimer -
+				Shutdown hook installed for: NFLoadBalancer-PingTimer-mg-wx
+2018-07-09 13:43:27.420 [hystrix-mg-wx-1] INFO  com.netflix.loadbalancer.BaseLoadBalancer -
+				Client:mg-wx instantiated a LoadBalancer:DynamicServerListLoadBalancer:{NFLoadBalancer:name=mg-wx,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2018-07-09 13:43:27.421 [hystrix-mg-wx-1] INFO  c.n.loadbalancer.DynamicServerListLoadBalancer -
+				Using serverListUpdater PollingServerListUpdater
+2018-07-09 13:43:27.423 [hystrix-mg-wx-1] INFO  com.netflix.config.ChainedDynamicProperty -
+				Flipping property: mg-wx.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-07-09 13:43:27.425 [hystrix-mg-wx-1] INFO  c.n.loadbalancer.DynamicServerListLoadBalancer -
+				DynamicServerListLoadBalancer for client mg-wx initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mg-wx,current list of Servers=[localhost:8764],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:localhost:8764;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@4410dd06
+2018-07-09 13:43:27.734 [http-nio-8762-exec-1] INFO  com.chinapnr.mg.core.controller.MessageController -
+				{"msg":"消息发送成功","code":"000"}
+2018-07-09 13:43:28.023 [PollingServerListUpdater-0] INFO  com.netflix.config.ChainedDynamicProperty -
+				Flipping property: mg-dd.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-07-09 13:43:28.425 [PollingServerListUpdater-0] INFO  com.netflix.config.ChainedDynamicProperty -
+				Flipping property: mg-wx.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-07-09 13:43:43.943 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:43:43.943 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:43:43.953 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:44:13.964 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:44:13.964 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:44:13.972 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:44:43.988 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:44:43.989 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:44:43.996 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:45:14.026 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:45:14.027 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:45:14.033 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:45:44.057 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:45:44.058 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:45:44.069 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:46:14.088 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:46:14.088 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:46:14.094 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:46:44.115 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:46:44.116 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:46:44.125 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:47:14.151 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:47:14.151 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:47:14.159 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:47:44.168 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:47:44.169 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:47:44.178 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:48:13.769 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2018-07-09 13:48:14.191 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:48:14.192 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:48:14.202 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:48:44.222 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:48:44.223 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:48:44.232 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:49:14.240 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:49:14.240 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:49:14.244 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:49:44.264 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:49:44.264 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:49:44.280 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:50:14.295 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:50:14.296 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:50:14.304 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:50:44.315 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:50:44.316 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:50:44.355 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:51:14.359 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:51:14.360 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:51:14.370 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:51:44.380 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:51:44.380 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:51:44.403 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:52:14.411 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:52:14.412 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:52:14.415 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:52:44.423 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:52:44.424 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:52:44.434 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:53:13.773 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2018-07-09 13:53:14.439 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:53:14.439 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:53:14.443 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:53:44.464 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:53:44.464 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:53:44.480 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:54:14.501 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:54:14.502 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:54:14.523 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:54:44.537 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:54:44.539 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:54:44.549 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:55:14.558 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:55:14.558 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:55:14.570 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:55:44.579 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:55:44.579 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:55:44.588 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:56:14.601 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:56:14.602 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:56:14.614 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:56:44.624 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:56:44.624 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:56:44.631 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:57:14.642 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:57:14.643 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:57:14.658 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:57:44.668 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:57:44.669 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:57:44.679 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:58:13.776 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2018-07-09 13:58:14.689 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:58:14.689 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:58:14.698 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:58:44.708 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:58:44.708 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:58:44.718 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:59:14.725 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:59:14.725 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:59:14.729 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 13:59:44.737 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 13:59:44.738 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 13:59:44.746 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:00:14.751 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:00:14.751 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:00:14.818 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:00:44.827 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:00:44.829 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:00:44.837 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:01:14.848 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:01:14.849 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:01:14.858 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:01:44.882 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:01:44.882 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:01:44.898 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:02:14.909 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:02:14.909 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:02:14.920 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:02:44.928 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:02:44.929 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:02:44.942 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:03:13.780 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2018-07-09 14:03:14.951 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:03:14.952 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:03:14.960 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:03:45.002 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:03:45.002 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:03:45.045 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:04:15.064 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:04:15.065 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:04:15.078 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:04:45.088 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:04:45.089 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:04:45.099 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:05:15.110 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:05:15.111 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:05:15.119 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:05:45.129 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:05:45.130 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:05:45.140 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:06:15.146 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:06:15.147 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:06:15.151 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:06:45.163 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:06:45.164 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:06:45.168 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:07:15.180 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:07:15.181 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:07:15.194 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:07:45.204 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:07:45.204 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:07:45.226 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:08:13.782 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2018-07-09 14:08:15.252 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:08:15.252 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:08:15.267 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:08:45.284 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:08:45.284 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:08:45.290 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:09:15.295 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:09:15.295 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:09:15.300 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:09:28.106 [PollingServerListUpdater-0] INFO  com.netflix.config.ChainedDynamicProperty -
+				Flipping property: mg-sms.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-07-09 14:09:45.309 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:09:45.310 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:09:45.318 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:10:04.869 [http-nio-8762-exec-6] INFO  com.chinapnr.mg.core.controller.MessageController -
+				{"msg":"消息发送成功","code":"000"}
+2018-07-09 14:10:15.337 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:10:15.338 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:10:15.345 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:10:45.373 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:10:45.373 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:10:45.393 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:11:15.402 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:11:15.402 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:11:15.480 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:11:26.925 [hystrix-mg-sms-3] INFO  com.chinapnr.mg.core.service.impl.SmsClientImpl -
+				进入fallback方法
+2018-07-09 14:11:26.977 [http-nio-8762-exec-10] INFO  com.chinapnr.mg.core.controller.MessageController -
+				{"msg":"消息发送成功","code":"000"}
+2018-07-09 14:11:45.488 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:11:45.489 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:11:45.502 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:12:15.512 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:12:15.513 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:12:15.524 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:12:45.536 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:12:45.536 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:12:45.555 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:13:13.791 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2018-07-09 14:13:15.585 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:13:15.585 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:13:15.600 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:13:45.613 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:13:45.614 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:13:45.624 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:14:15.652 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:14:15.652 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:14:15.670 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:14:45.702 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:14:45.702 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:14:45.735 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:15:15.762 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:15:15.762 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:15:15.778 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:15:45.798 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:15:45.798 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:15:45.807 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:16:15.814 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:16:15.815 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:16:15.825 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:16:45.830 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:16:45.830 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:16:45.836 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:17:12.666 [hystrix-mg-sms-4] INFO  com.chinapnr.mg.core.service.impl.SmsClientImpl -
+				进入fallback方法
+2018-07-09 14:17:12.689 [http-nio-8762-exec-4] INFO  com.chinapnr.mg.core.controller.MessageController -
+				{"msg":"消息发送成功","code":"000"}
+2018-07-09 14:17:15.841 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:17:15.841 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:17:15.844 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:17:18.916 [hystrix-mg-sms-5] INFO  com.chinapnr.mg.core.service.impl.SmsClientImpl -
+				进入fallback方法
+2018-07-09 14:17:18.946 [http-nio-8762-exec-5] INFO  com.chinapnr.mg.core.controller.MessageController -
+				{"msg":"消息发送成功","code":"000"}
+2018-07-09 14:17:45.851 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:17:45.852 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:17:45.861 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:17:54.921 [hystrix-mg-sms-6] INFO  com.chinapnr.mg.core.service.impl.SmsClientImpl -
+				进入fallback方法
+2018-07-09 14:17:54.974 [http-nio-8762-exec-6] INFO  com.chinapnr.mg.core.controller.MessageController -
+				{"msg":"消息发送成功","code":"000"}
+2018-07-09 14:18:13.795 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2018-07-09 14:18:15.879 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:18:15.879 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:18:15.904 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:18:45.915 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:18:45.916 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:18:45.926 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:19:15.949 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:19:15.950 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:19:15.965 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:19:45.973 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:19:45.974 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:19:45.984 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:20:15.994 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:20:15.995 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:20:16.003 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204
+2018-07-09 14:20:46.010 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - Re-registering apps/MG-CORE
+2018-07-09 14:20:46.011 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762: registering service...
+2018-07-09 14:20:46.026 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-CORE/http://localhost:8762 - registration status: 204

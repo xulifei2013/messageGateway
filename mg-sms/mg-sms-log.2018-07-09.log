@@ -1,0 +1,1460 @@
+2018-07-09 11:11:53.391 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2bd1f679: startup date [Mon Jul 09 11:11:53 CST 2018]; root of context hierarchy
+2018-07-09 11:11:53.538 [background-preinit] INFO  org.hibernate.validator.internal.util.Version -
+				HV000001: Hibernate Validator 5.2.4.Final
+2018-07-09 11:11:53.820 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 11:11:53.867 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4cb09a3b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-09 11:11:55.549 [restartedMain] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Fetching config from server at: http://localhost:8888
+2018-07-09 11:11:56.651 [restartedMain] WARN  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/mg-sms/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-07-09 11:11:56.671 [restartedMain] INFO  com.chinapnr.mg.sms.App -
+				No active profile set, falling back to default profiles: default
+2018-07-09 11:11:56.701 [restartedMain] WARN  org.springframework.boot.SpringApplication -
+				Error handling failed (ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@49ad940f: startup date [Thu Jan 01 08:00:00 CST 1970]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2bd1f679)
+2018-07-09 11:11:56.715 [restartedMain] ERROR org.springframework.boot.SpringApplication -
+				Application startup failed
+org.springframework.core.annotation.AnnotationConfigurationException: In AnnotationAttributes for annotation [org.springframework.boot.context.properties.ConfigurationProperties] declared on class com.chinapnr.mg.sms.App, attribute 'prefix' and its alias 'value' are declared with values of [env] and [classpath:dev/*.properties], but only one is permitted.
+	at org.springframework.core.annotation.AnnotationUtils.postProcessAnnotationAttributes(AnnotationUtils.java:1268)
+	at org.springframework.core.annotation.AnnotatedElementUtils.getMergedAnnotationAttributes(AnnotatedElementUtils.java:397)
+	at org.springframework.core.type.StandardAnnotationMetadata.getAnnotationAttributes(StandardAnnotationMetadata.java:117)
+	at org.springframework.context.annotation.AnnotationConfigUtils.attributesFor(AnnotationConfigUtils.java:280)
+	at org.springframework.context.annotation.AnnotationBeanNameGenerator.determineBeanNameFromAnnotation(AnnotationBeanNameGenerator.java:90)
+	at org.springframework.context.annotation.AnnotationBeanNameGenerator.generateBeanName(AnnotationBeanNameGenerator.java:70)
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.registerBean(AnnotatedBeanDefinitionReader.java:174)
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.registerBean(AnnotatedBeanDefinitionReader.java:142)
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.register(AnnotatedBeanDefinitionReader.java:131)
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:159)
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:135)
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:127)
+	at org.springframework.boot.SpringApplication.load(SpringApplication.java:704)
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:367)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1187)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1176)
+	at com.chinapnr.mg.sms.App.main(App.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2018-07-09 11:12:29.482 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2dc5510b: startup date [Mon Jul 09 11:12:29 CST 2018]; root of context hierarchy
+2018-07-09 11:12:29.572 [background-preinit] INFO  org.hibernate.validator.internal.util.Version -
+				HV000001: Hibernate Validator 5.2.4.Final
+2018-07-09 11:12:29.958 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 11:12:29.997 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$118fbe16] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-09 11:12:31.841 [restartedMain] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Fetching config from server at: http://localhost:8888
+2018-07-09 11:12:32.934 [restartedMain] WARN  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/mg-sms/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-07-09 11:12:32.940 [restartedMain] INFO  com.chinapnr.mg.sms.App -
+				No active profile set, falling back to default profiles: default
+2018-07-09 11:12:32.963 [restartedMain] WARN  org.springframework.boot.SpringApplication -
+				Error handling failed (ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@57b1cf1c: startup date [Thu Jan 01 08:00:00 CST 1970]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2dc5510b)
+2018-07-09 11:12:32.971 [restartedMain] ERROR org.springframework.boot.SpringApplication -
+				Application startup failed
+org.springframework.core.annotation.AnnotationConfigurationException: In AnnotationAttributes for annotation [org.springframework.boot.context.properties.ConfigurationProperties] declared on class com.chinapnr.mg.sms.App, attribute 'prefix' and its alias 'value' are declared with values of [env] and [classpath:dev/*.properties], but only one is permitted.
+	at org.springframework.core.annotation.AnnotationUtils.postProcessAnnotationAttributes(AnnotationUtils.java:1268)
+	at org.springframework.core.annotation.AnnotatedElementUtils.getMergedAnnotationAttributes(AnnotatedElementUtils.java:397)
+	at org.springframework.core.type.StandardAnnotationMetadata.getAnnotationAttributes(StandardAnnotationMetadata.java:117)
+	at org.springframework.context.annotation.AnnotationConfigUtils.attributesFor(AnnotationConfigUtils.java:280)
+	at org.springframework.context.annotation.AnnotationBeanNameGenerator.determineBeanNameFromAnnotation(AnnotationBeanNameGenerator.java:90)
+	at org.springframework.context.annotation.AnnotationBeanNameGenerator.generateBeanName(AnnotationBeanNameGenerator.java:70)
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.registerBean(AnnotatedBeanDefinitionReader.java:174)
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.registerBean(AnnotatedBeanDefinitionReader.java:142)
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.register(AnnotatedBeanDefinitionReader.java:131)
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:159)
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:135)
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:127)
+	at org.springframework.boot.SpringApplication.load(SpringApplication.java:704)
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:367)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1187)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1176)
+	at com.chinapnr.mg.sms.App.main(App.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2018-07-09 13:35:21.578 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5a6c4292: startup date [Mon Jul 09 13:35:21 CST 2018]; root of context hierarchy
+2018-07-09 13:35:21.856 [background-preinit] INFO  org.hibernate.validator.internal.util.Version -
+				HV000001: Hibernate Validator 5.3.5.Final
+2018-07-09 13:35:22.056 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 13:35:22.105 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a6352ecc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-09 13:35:23.628 [restartedMain] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Fetching config from server at: http://localhost:8888
+2018-07-09 13:35:24.720 [restartedMain] WARN  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/mg-sms/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-07-09 13:35:24.729 [restartedMain] INFO  com.chinapnr.mg.sms.App -
+				No active profile set, falling back to default profiles: default
+2018-07-09 13:35:24.800 [restartedMain] ERROR org.springframework.boot.SpringApplication -
+				Application startup failed
+org.springframework.core.annotation.AnnotationConfigurationException: In AnnotationAttributes for annotation [org.springframework.boot.context.properties.ConfigurationProperties] declared on class com.chinapnr.mg.sms.App, attribute 'prefix' and its alias 'value' are declared with values of [env] and [classpath:dev/*.properties], but only one is permitted.
+	at org.springframework.core.annotation.AnnotationUtils.postProcessAnnotationAttributes(AnnotationUtils.java:1279)
+	at org.springframework.core.annotation.AnnotatedElementUtils.getMergedAnnotationAttributes(AnnotatedElementUtils.java:397)
+	at org.springframework.core.type.StandardAnnotationMetadata.getAnnotationAttributes(StandardAnnotationMetadata.java:117)
+	at org.springframework.context.annotation.AnnotationConfigUtils.attributesFor(AnnotationConfigUtils.java:280)
+	at org.springframework.context.annotation.AnnotationBeanNameGenerator.determineBeanNameFromAnnotation(AnnotationBeanNameGenerator.java:90)
+	at org.springframework.context.annotation.AnnotationBeanNameGenerator.generateBeanName(AnnotationBeanNameGenerator.java:70)
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.registerBean(AnnotatedBeanDefinitionReader.java:174)
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.registerBean(AnnotatedBeanDefinitionReader.java:142)
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.register(AnnotatedBeanDefinitionReader.java:131)
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:159)
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:135)
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:127)
+	at org.springframework.boot.SpringApplication.load(SpringApplication.java:635)
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:355)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.chinapnr.mg.sms.App.main(App.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2018-07-09 13:59:58.145 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@52c519a1: startup date [Mon Jul 09 13:59:58 CST 2018]; root of context hierarchy
+2018-07-09 13:59:58.520 [background-preinit] INFO  org.hibernate.validator.internal.util.Version -
+				HV000001: Hibernate Validator 5.3.5.Final
+2018-07-09 13:59:58.867 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 13:59:58.967 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1206f57c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-09 14:00:00.900 [restartedMain] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Fetching config from server at: http://localhost:8888
+2018-07-09 14:00:02.031 [restartedMain] WARN  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/mg-sms/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-07-09 14:00:02.041 [restartedMain] INFO  com.chinapnr.mg.sms.App -
+				No active profile set, falling back to default profiles: default
+2018-07-09 14:00:02.080 [restartedMain] ERROR org.springframework.boot.SpringApplication -
+				Application startup failed
+org.springframework.core.annotation.AnnotationConfigurationException: In AnnotationAttributes for annotation [org.springframework.boot.context.properties.ConfigurationProperties] declared on class com.chinapnr.mg.sms.App, attribute 'prefix' and its alias 'value' are declared with values of [env] and [classpath:dev/*.properties], but only one is permitted.
+	at org.springframework.core.annotation.AnnotationUtils.postProcessAnnotationAttributes(AnnotationUtils.java:1279)
+	at org.springframework.core.annotation.AnnotatedElementUtils.getMergedAnnotationAttributes(AnnotatedElementUtils.java:397)
+	at org.springframework.core.type.StandardAnnotationMetadata.getAnnotationAttributes(StandardAnnotationMetadata.java:117)
+	at org.springframework.context.annotation.AnnotationConfigUtils.attributesFor(AnnotationConfigUtils.java:280)
+	at org.springframework.context.annotation.AnnotationBeanNameGenerator.determineBeanNameFromAnnotation(AnnotationBeanNameGenerator.java:90)
+	at org.springframework.context.annotation.AnnotationBeanNameGenerator.generateBeanName(AnnotationBeanNameGenerator.java:70)
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.registerBean(AnnotatedBeanDefinitionReader.java:174)
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.registerBean(AnnotatedBeanDefinitionReader.java:142)
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.register(AnnotatedBeanDefinitionReader.java:131)
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:159)
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:135)
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:127)
+	at org.springframework.boot.SpringApplication.load(SpringApplication.java:635)
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:355)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.chinapnr.mg.sms.App.main(App.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2018-07-09 14:02:04.538 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6df04247: startup date [Mon Jul 09 14:02:04 CST 2018]; root of context hierarchy
+2018-07-09 14:02:04.898 [background-preinit] INFO  org.hibernate.validator.internal.util.Version -
+				HV000001: Hibernate Validator 5.3.5.Final
+2018-07-09 14:02:05.145 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 14:02:05.187 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$99710770] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-09 14:02:06.892 [restartedMain] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Fetching config from server at: http://localhost:8888
+2018-07-09 14:02:07.984 [restartedMain] WARN  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/mg-sms/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-07-09 14:02:07.989 [restartedMain] INFO  com.chinapnr.mg.sms.App -
+				No active profile set, falling back to default profiles: default
+2018-07-09 14:02:08.030 [restartedMain] ERROR org.springframework.boot.SpringApplication -
+				Application startup failed
+org.springframework.core.annotation.AnnotationConfigurationException: In AnnotationAttributes for annotation [org.springframework.boot.context.properties.ConfigurationProperties] declared on class com.chinapnr.mg.sms.App, attribute 'prefix' and its alias 'value' are declared with values of [env] and [classpath:dev/*.properties], but only one is permitted.
+	at org.springframework.core.annotation.AnnotationUtils.postProcessAnnotationAttributes(AnnotationUtils.java:1279)
+	at org.springframework.core.annotation.AnnotatedElementUtils.getMergedAnnotationAttributes(AnnotatedElementUtils.java:397)
+	at org.springframework.core.type.StandardAnnotationMetadata.getAnnotationAttributes(StandardAnnotationMetadata.java:117)
+	at org.springframework.context.annotation.AnnotationConfigUtils.attributesFor(AnnotationConfigUtils.java:280)
+	at org.springframework.context.annotation.AnnotationBeanNameGenerator.determineBeanNameFromAnnotation(AnnotationBeanNameGenerator.java:90)
+	at org.springframework.context.annotation.AnnotationBeanNameGenerator.generateBeanName(AnnotationBeanNameGenerator.java:70)
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.registerBean(AnnotatedBeanDefinitionReader.java:174)
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.registerBean(AnnotatedBeanDefinitionReader.java:142)
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.register(AnnotatedBeanDefinitionReader.java:131)
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:159)
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:135)
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:127)
+	at org.springframework.boot.SpringApplication.load(SpringApplication.java:635)
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:355)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.chinapnr.mg.sms.App.main(App.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2018-07-09 14:02:26.626 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@757e108: startup date [Mon Jul 09 14:02:26 CST 2018]; root of context hierarchy
+2018-07-09 14:02:26.908 [background-preinit] INFO  org.hibernate.validator.internal.util.Version -
+				HV000001: Hibernate Validator 5.3.5.Final
+2018-07-09 14:02:27.116 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 14:02:27.176 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6c81a20d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-09 14:02:28.988 [restartedMain] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Fetching config from server at: http://localhost:8888
+2018-07-09 14:02:30.086 [restartedMain] WARN  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/mg-sms/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-07-09 14:02:30.117 [restartedMain] INFO  com.chinapnr.mg.sms.App -
+				No active profile set, falling back to default profiles: default
+2018-07-09 14:02:30.145 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5df42fe9: startup date [Mon Jul 09 14:02:30 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@757e108
+2018-07-09 14:02:31.717 [restartedMain] WARN  o.s.c.annotation.ConfigurationClassPostProcessor -
+				Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-07-09 14:02:31.963 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope -
+				BeanFactory id=8ec17f20-0e6f-3878-a577-ac7e3949c151
+2018-07-09 14:02:31.979 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 14:02:32.057 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6c81a20d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-09 14:02:32.620 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer -
+				Tomcat initialized with port(s): 8763 (http)
+2018-07-09 14:02:32.634 [restartedMain] INFO  org.apache.catalina.core.StandardService -
+				Starting service [Tomcat]
+2018-07-09 14:02:32.636 [restartedMain] INFO  org.apache.catalina.core.StandardEngine -
+				Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-07-09 14:02:32.809 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2018-07-09 14:02:32.810 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader -
+				Root WebApplicationContext: initialization completed in 2664 ms
+2018-07-09 14:02:33.170 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean -
+				Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-09 14:02:33.179 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'metricsFilter' to: [/*]
+2018-07-09 14:02:33.180 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-09 14:02:33.181 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-07-09 14:02:33.181 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-07-09 14:02:33.216 [restartedMain] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'properties' defined in file [E:\workspace\workSTS_CA\messageGateway\mg-sms\target\classes\com\chinapnr\mg\sms\config\Properties.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.chinapnr.mg.sms.config.Properties]: Constructor threw exception; nested exception is java.lang.NullPointerException
+2018-07-09 14:02:33.216 [restartedMain] INFO  org.apache.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2018-07-09 14:02:33.269 [restartedMain] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer -
+				
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-07-09 14:02:33.277 [restartedMain] ERROR org.springframework.boot.SpringApplication -
+				Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'properties' defined in file [E:\workspace\workSTS_CA\messageGateway\mg-sms\target\classes\com\chinapnr\mg\sms\config\Properties.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.chinapnr.mg.sms.config.Properties]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1155)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.chinapnr.mg.sms.App.main(App.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.chinapnr.mg.sms.config.Properties]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:154)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1147)
+	... 22 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at com.chinapnr.mg.sms.config.Properties.<init>(Properties.java:15)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:142)
+	... 24 common frames omitted
+2018-07-09 14:06:26.487 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6fe12faf: startup date [Mon Jul 09 14:06:26 CST 2018]; root of context hierarchy
+2018-07-09 14:06:26.773 [background-preinit] INFO  org.hibernate.validator.internal.util.Version -
+				HV000001: Hibernate Validator 5.3.5.Final
+2018-07-09 14:06:27.155 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 14:06:27.221 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$44b13690] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-09 14:06:28.913 [restartedMain] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Fetching config from server at: http://localhost:8888
+2018-07-09 14:06:30.009 [restartedMain] WARN  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/mg-sms/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-07-09 14:06:30.018 [restartedMain] INFO  com.chinapnr.mg.sms.App -
+				No active profile set, falling back to default profiles: default
+2018-07-09 14:06:30.060 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5c5cdf1: startup date [Mon Jul 09 14:06:30 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6fe12faf
+2018-07-09 14:06:31.534 [restartedMain] WARN  o.s.c.annotation.ConfigurationClassPostProcessor -
+				Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-07-09 14:06:31.764 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope -
+				BeanFactory id=9fd72b1b-bcac-324b-bd40-01fb388ea9ac
+2018-07-09 14:06:31.780 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 14:06:31.847 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$44b13690] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-09 14:06:32.390 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer -
+				Tomcat initialized with port(s): 8763 (http)
+2018-07-09 14:06:32.405 [restartedMain] INFO  org.apache.catalina.core.StandardService -
+				Starting service [Tomcat]
+2018-07-09 14:06:32.407 [restartedMain] INFO  org.apache.catalina.core.StandardEngine -
+				Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-07-09 14:06:32.569 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2018-07-09 14:06:32.569 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader -
+				Root WebApplicationContext: initialization completed in 2509 ms
+2018-07-09 14:06:32.824 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean -
+				Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-09 14:06:32.824 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'metricsFilter' to: [/*]
+2018-07-09 14:06:32.824 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-09 14:06:32.839 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-07-09 14:06:32.839 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-07-09 14:06:32.889 [restartedMain] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'smsController': Unsatisfied dependency expressed through field 'smsService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'smsService' defined in file [E:\workspace\workSTS_CA\messageGateway\mg-sms\target\classes\com\chinapnr\mg\sms\service\SmsService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.chinapnr.mg.sms.service.SmsService]: Constructor threw exception; nested exception is java.lang.NullPointerException
+2018-07-09 14:06:32.891 [restartedMain] INFO  org.apache.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2018-07-09 14:06:32.910 [restartedMain] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer -
+				
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-07-09 14:06:32.916 [restartedMain] ERROR org.springframework.boot.SpringApplication -
+				Application startup failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'smsController': Unsatisfied dependency expressed through field 'smsService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'smsService' defined in file [E:\workspace\workSTS_CA\messageGateway\mg-sms\target\classes\com\chinapnr\mg\sms\service\SmsService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.chinapnr.mg.sms.service.SmsService]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.chinapnr.mg.sms.App.main(App.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'smsService' defined in file [E:\workspace\workSTS_CA\messageGateway\mg-sms\target\classes\com\chinapnr\mg\sms\service\SmsService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.chinapnr.mg.sms.service.SmsService]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1155)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.chinapnr.mg.sms.service.SmsService]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:154)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1147)
+	... 35 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at com.chinapnr.mg.sms.service.SmsService.<init>(SmsService.java:29)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:142)
+	... 37 common frames omitted
+2018-07-09 14:08:44.854 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3814c95e: startup date [Mon Jul 09 14:08:44 CST 2018]; root of context hierarchy
+2018-07-09 14:08:45.249 [background-preinit] INFO  org.hibernate.validator.internal.util.Version -
+				HV000001: Hibernate Validator 5.3.5.Final
+2018-07-09 14:08:45.422 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 14:08:45.471 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$47529c7a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-09 14:08:47.126 [restartedMain] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Fetching config from server at: http://localhost:8888
+2018-07-09 14:08:48.235 [restartedMain] WARN  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/mg-sms/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-07-09 14:08:48.246 [restartedMain] INFO  com.chinapnr.mg.sms.App -
+				No active profile set, falling back to default profiles: default
+2018-07-09 14:08:48.279 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37a25935: startup date [Mon Jul 09 14:08:48 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3814c95e
+2018-07-09 14:08:49.747 [restartedMain] WARN  o.s.c.annotation.ConfigurationClassPostProcessor -
+				Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-07-09 14:08:49.956 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope -
+				BeanFactory id=9fd72b1b-bcac-324b-bd40-01fb388ea9ac
+2018-07-09 14:08:49.972 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 14:08:50.057 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$47529c7a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-09 14:08:50.726 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer -
+				Tomcat initialized with port(s): 8763 (http)
+2018-07-09 14:08:50.741 [restartedMain] INFO  org.apache.catalina.core.StandardService -
+				Starting service [Tomcat]
+2018-07-09 14:08:50.741 [restartedMain] INFO  org.apache.catalina.core.StandardEngine -
+				Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-07-09 14:08:50.960 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2018-07-09 14:08:50.961 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader -
+				Root WebApplicationContext: initialization completed in 2682 ms
+2018-07-09 14:08:51.225 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean -
+				Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-09 14:08:51.230 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'metricsFilter' to: [/*]
+2018-07-09 14:08:51.230 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-09 14:08:51.230 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-07-09 14:08:51.231 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-07-09 14:08:51.519 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/send/message]}" onto public java.lang.String com.chinapnr.mg.sms.controller.SmsController.sendMag(java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-09 14:08:51.525 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-09 14:08:51.526 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-09 14:08:51.776 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37a25935: startup date [Mon Jul 09 14:08:48 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3814c95e
+2018-07-09 14:08:54.149 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:08:54.150 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:08:54.152 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-07-09 14:08:54.153 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:08:54.154 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-07-09 14:08:54.156 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2018-07-09 14:08:54.157 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:08:54.159 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-07-09 14:08:54.160 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-07-09 14:08:54.161 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:08:54.162 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-07-09 14:08:54.165 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:08:54.167 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:08:54.168 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:08:54.169 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2018-07-09 14:08:54.171 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:08:54.172 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2018-07-09 14:08:54.173 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2018-07-09 14:08:54.174 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-07-09 14:08:54.174 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:08:54.177 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2018-07-09 14:08:54.178 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2018-07-09 14:08:54.178 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:08:54.181 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2018-07-09 14:08:54.182 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:08:54.350 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2018-07-09 14:08:54.468 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2018-07-09 14:08:54.469 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-07-09 14:08:54.479 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2018-07-09 14:08:54.480 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-07-09 14:08:54.671 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Registering beans for JMX exposure on startup
+2018-07-09 14:08:54.696 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-07-09 14:08:54.697 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-07-09 14:08:54.699 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-07-09 14:08:54.701 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2018-07-09 14:08:54.704 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2018-07-09 14:08:54.710 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-07-09 14:08:54.925 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2018-07-09 14:08:54.956 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-07-09 14:08:54.977 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=37a25935,type=ConfigurationPropertiesRebinder]
+2018-07-09 14:08:54.988 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2018-07-09 14:08:54.991 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Registering beans for JMX exposure on startup
+2018-07-09 14:08:55.264 [restartedMain] INFO  o.s.context.support.DefaultLifecycleProcessor -
+				Starting beans in phase 0
+2018-07-09 14:08:55.274 [restartedMain] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2018-07-09 14:08:56.280 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -
+				Using JSON encoding codec LegacyJacksonJson
+2018-07-09 14:08:56.280 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -
+				Using JSON decoding codec LegacyJacksonJson
+2018-07-09 14:08:56.451 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -
+				Using XML encoding codec XStreamXml
+2018-07-09 14:08:56.451 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -
+				Using XML decoding codec XStreamXml
+2018-07-09 14:08:56.770 [restartedMain] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2018-07-09 14:08:57.364 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Disable delta property : false
+2018-07-09 14:08:57.364 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Single vip registry refresh property : null
+2018-07-09 14:08:57.364 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Force full registry fetch : false
+2018-07-09 14:08:57.365 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Application is null : false
+2018-07-09 14:08:57.365 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Registered Applications size is zero : true
+2018-07-09 14:08:57.365 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Application version is -1: true
+2018-07-09 14:08:57.365 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Getting all instance registry info from the eureka server
+2018-07-09 14:08:57.553 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				The response status is 200
+2018-07-09 14:08:57.556 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Starting heartbeat executor: renew interval is: 30
+2018-07-09 14:08:57.561 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator -
+				InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-07-09 14:08:57.565 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Discovery Client initialized at timestamp 1531116537564 with initial instances count: 4
+2018-07-09 14:08:57.604 [restartedMain] INFO  o.s.c.n.eureka.EurekaDiscoveryClientConfiguration -
+				Registering application mg-sms with eureka with status UP
+2018-07-09 14:08:57.606 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1531116537606, current=UP, previous=STARTING]
+2018-07-09 14:08:57.611 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+2018-07-09 14:08:57.616 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763: registering service...
+2018-07-09 14:08:57.622 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+2018-07-09 14:08:57.667 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - registration status: 204
+2018-07-09 14:08:57.685 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2018-07-09 14:08:57.688 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2018-07-09 14:08:57.691 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2018-07-09 14:08:57.694 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2018-07-09 14:08:57.698 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2018-07-09 14:08:57.701 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+2018-07-09 14:08:57.710 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2018-07-09 14:08:57.713 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2018-07-09 14:08:57.716 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2018-07-09 14:08:57.719 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2018-07-09 14:08:57.722 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2018-07-09 14:08:57.725 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+2018-07-09 14:08:57.759 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8763"]
+2018-07-09 14:08:57.775 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8763"]
+2018-07-09 14:08:57.790 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool -
+				Using a shared selector for servlet write/read
+2018-07-09 14:08:57.808 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer -
+				Tomcat started on port(s): 8763 (http)
+2018-07-09 14:08:57.808 [restartedMain] INFO  o.s.c.n.eureka.EurekaDiscoveryClientConfiguration -
+				Updating port to 8763
+2018-07-09 14:08:57.808 [restartedMain] INFO  com.chinapnr.mg.sms.App -
+				Started App in 14.663 seconds (JVM running for 16.275)
+2018-07-09 14:08:57.808 [restartedMain] INFO  com.chinapnr.mg.sms.App -
+				ms-sms startup success!
+2018-07-09 14:09:27.595 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - Re-registering apps/MG-SMS
+2018-07-09 14:09:27.596 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763: registering service...
+2018-07-09 14:09:27.613 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - registration status: 204
+2018-07-09 14:09:57.645 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - Re-registering apps/MG-SMS
+2018-07-09 14:09:57.645 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763: registering service...
+2018-07-09 14:09:57.664 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - registration status: 204
+2018-07-09 14:10:04.407 [http-nio-8763-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+				Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-09 14:10:04.408 [http-nio-8763-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+				FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-09 14:10:04.431 [http-nio-8763-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+				FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2018-07-09 14:10:04.484 [http-nio-8763-exec-1] INFO  com.chinapnr.mg.sms.controller.SmsController -
+				sms receive :{"msg":"来自消息网关的消息","code":"000"}
+2018-07-09 14:10:04.794 [http-nio-8763-exec-1] INFO  com.chinapnr.mg.sms.controller.SmsController -
+				sms response :{"mag":"短信发送失败","code":"001"}
+2018-07-09 14:10:27.669 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - Re-registering apps/MG-SMS
+2018-07-09 14:10:27.670 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763: registering service...
+2018-07-09 14:10:27.675 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - registration status: 204
+2018-07-09 14:10:39.715 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1db94fc8: startup date [Mon Jul 09 14:10:39 CST 2018]; root of context hierarchy
+2018-07-09 14:10:40.074 [background-preinit] INFO  org.hibernate.validator.internal.util.Version -
+				HV000001: Hibernate Validator 5.3.5.Final
+2018-07-09 14:10:40.310 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 14:10:40.375 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4505060a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-09 14:10:42.232 [restartedMain] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Fetching config from server at: http://localhost:8888
+2018-07-09 14:10:43.348 [restartedMain] WARN  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/mg-sms/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-07-09 14:10:43.361 [restartedMain] INFO  com.chinapnr.mg.sms.App -
+				No active profile set, falling back to default profiles: default
+2018-07-09 14:10:43.412 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2ce8daec: startup date [Mon Jul 09 14:10:43 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1db94fc8
+2018-07-09 14:10:45.683 [restartedMain] WARN  o.s.c.annotation.ConfigurationClassPostProcessor -
+				Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-07-09 14:10:45.941 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope -
+				BeanFactory id=9fd72b1b-bcac-324b-bd40-01fb388ea9ac
+2018-07-09 14:10:45.962 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 14:10:46.063 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4505060a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-09 14:10:46.667 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer -
+				Tomcat initialized with port(s): 8763 (http)
+2018-07-09 14:10:46.681 [restartedMain] INFO  org.apache.catalina.core.StandardService -
+				Starting service [Tomcat]
+2018-07-09 14:10:46.682 [restartedMain] INFO  org.apache.catalina.core.StandardEngine -
+				Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-07-09 14:10:46.858 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2018-07-09 14:10:46.859 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader -
+				Root WebApplicationContext: initialization completed in 3447 ms
+2018-07-09 14:10:47.208 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean -
+				Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-09 14:10:47.223 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'metricsFilter' to: [/*]
+2018-07-09 14:10:47.223 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-09 14:10:47.223 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-07-09 14:10:47.223 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-07-09 14:10:47.844 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/send/message]}" onto public java.lang.String com.chinapnr.mg.sms.controller.SmsController.sendMag(java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-09 14:10:47.850 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-09 14:10:47.850 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-09 14:10:48.025 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2ce8daec: startup date [Mon Jul 09 14:10:43 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1db94fc8
+2018-07-09 14:10:50.981 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:10:50.983 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:10:50.986 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-07-09 14:10:50.987 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:10:50.989 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-07-09 14:10:50.990 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:10:50.993 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2018-07-09 14:10:50.994 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-07-09 14:10:50.995 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:10:50.996 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-07-09 14:10:50.999 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:10:51.001 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:10:51.003 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2018-07-09 14:10:51.003 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2018-07-09 14:10:51.004 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-07-09 14:10:51.005 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:10:51.007 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-07-09 14:10:51.007 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:10:51.008 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:10:51.011 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2018-07-09 14:10:51.012 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2018-07-09 14:10:51.012 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:10:51.014 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2018-07-09 14:10:51.018 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2018-07-09 14:10:51.019 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:10:51.238 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2018-07-09 14:10:51.375 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2018-07-09 14:10:51.375 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-07-09 14:10:51.390 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2018-07-09 14:10:51.390 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-07-09 14:10:51.689 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Registering beans for JMX exposure on startup
+2018-07-09 14:10:51.703 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-07-09 14:10:51.704 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-07-09 14:10:51.706 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-07-09 14:10:51.707 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2018-07-09 14:10:51.708 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2018-07-09 14:10:51.712 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-07-09 14:10:51.733 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2018-07-09 14:10:51.755 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-07-09 14:10:51.782 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=2ce8daec,type=ConfigurationPropertiesRebinder]
+2018-07-09 14:10:51.792 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2018-07-09 14:10:51.794 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Registering beans for JMX exposure on startup
+2018-07-09 14:10:52.063 [restartedMain] INFO  o.s.context.support.DefaultLifecycleProcessor -
+				Starting beans in phase 0
+2018-07-09 14:10:52.075 [restartedMain] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2018-07-09 14:10:53.177 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -
+				Using JSON encoding codec LegacyJacksonJson
+2018-07-09 14:10:53.178 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -
+				Using JSON decoding codec LegacyJacksonJson
+2018-07-09 14:10:53.330 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -
+				Using XML encoding codec XStreamXml
+2018-07-09 14:10:53.330 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -
+				Using XML decoding codec XStreamXml
+2018-07-09 14:10:53.794 [restartedMain] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2018-07-09 14:10:54.516 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Disable delta property : false
+2018-07-09 14:10:54.516 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Single vip registry refresh property : null
+2018-07-09 14:10:54.516 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Force full registry fetch : false
+2018-07-09 14:10:54.517 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Application is null : false
+2018-07-09 14:10:54.517 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Registered Applications size is zero : true
+2018-07-09 14:10:54.517 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Application version is -1: true
+2018-07-09 14:10:54.518 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Getting all instance registry info from the eureka server
+2018-07-09 14:10:54.747 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				The response status is 200
+2018-07-09 14:10:54.751 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Starting heartbeat executor: renew interval is: 30
+2018-07-09 14:10:54.757 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator -
+				InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-07-09 14:10:54.762 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Discovery Client initialized at timestamp 1531116654762 with initial instances count: 5
+2018-07-09 14:10:54.811 [restartedMain] INFO  o.s.c.n.eureka.EurekaDiscoveryClientConfiguration -
+				Registering application mg-sms with eureka with status UP
+2018-07-09 14:10:54.812 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1531116654812, current=UP, previous=STARTING]
+2018-07-09 14:10:54.815 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763: registering service...
+2018-07-09 14:10:54.828 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+2018-07-09 14:10:54.840 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+2018-07-09 14:10:54.855 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2018-07-09 14:10:54.859 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2018-07-09 14:10:54.863 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2018-07-09 14:10:54.869 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2018-07-09 14:10:54.872 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2018-07-09 14:10:54.875 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+2018-07-09 14:10:54.885 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2018-07-09 14:10:54.888 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2018-07-09 14:10:54.892 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2018-07-09 14:10:54.895 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2018-07-09 14:10:54.898 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2018-07-09 14:10:54.901 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+2018-07-09 14:10:54.903 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - registration status: 204
+2018-07-09 14:10:54.937 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8763"]
+2018-07-09 14:10:54.958 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8763"]
+2018-07-09 14:10:54.975 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool -
+				Using a shared selector for servlet write/read
+2018-07-09 14:10:55.010 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer -
+				Tomcat started on port(s): 8763 (http)
+2018-07-09 14:10:55.010 [restartedMain] INFO  o.s.c.n.eureka.EurekaDiscoveryClientConfiguration -
+				Updating port to 8763
+2018-07-09 14:10:55.026 [restartedMain] INFO  com.chinapnr.mg.sms.App -
+				Started App in 17.279 seconds (JVM running for 19.85)
+2018-07-09 14:10:55.026 [restartedMain] INFO  com.chinapnr.mg.sms.App -
+				ms-sms startup success!
+2018-07-09 14:11:24.780 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - Re-registering apps/MG-SMS
+2018-07-09 14:11:24.781 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763: registering service...
+2018-07-09 14:11:24.811 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - registration status: 204
+2018-07-09 14:11:25.930 [http-nio-8763-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+				Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-09 14:11:25.931 [http-nio-8763-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+				FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-09 14:11:25.959 [http-nio-8763-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+				FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+2018-07-09 14:11:26.010 [http-nio-8763-exec-1] INFO  com.chinapnr.mg.sms.controller.SmsController -
+				sms receive :{"msg":"来自消息网关的消息","code":"000"}
+2018-07-09 14:11:48.867 [http-nio-8763-exec-1] INFO  com.chinapnr.mg.sms.controller.SmsController -
+				sms response :{"mag":"短信发送失败","code":"001"}
+2018-07-09 14:11:54.829 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - Re-registering apps/MG-SMS
+2018-07-09 14:11:54.829 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763: registering service...
+2018-07-09 14:11:54.847 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - registration status: 204
+2018-07-09 14:12:24.858 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - Re-registering apps/MG-SMS
+2018-07-09 14:12:24.859 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763: registering service...
+2018-07-09 14:12:24.868 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - registration status: 204
+2018-07-09 14:12:54.890 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - Re-registering apps/MG-SMS
+2018-07-09 14:12:54.890 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763: registering service...
+2018-07-09 14:12:54.913 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - registration status: 204
+2018-07-09 14:12:58.193 [Thread-2] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1db94fc8: startup date [Mon Jul 09 14:10:39 CST 2018]; root of context hierarchy
+2018-07-09 14:12:58.196 [Thread-2] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -
+				Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2ce8daec: startup date [Mon Jul 09 14:10:43 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1db94fc8
+2018-07-09 14:12:58.197 [Thread-2] INFO  o.s.c.n.eureka.EurekaDiscoveryClientConfiguration -
+				Unregistering application mg-sms with eureka with status DOWN
+2018-07-09 14:12:58.200 [Thread-2] WARN  com.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1531116778200, current=DOWN, previous=UP]
+2018-07-09 14:12:58.201 [Thread-2] INFO  com.netflix.discovery.DiscoveryClient -
+				Shutting down DiscoveryClient ...
+2018-07-09 14:12:58.201 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763: registering service...
+2018-07-09 14:12:58.201 [Thread-2] INFO  com.netflix.discovery.DiscoveryClient -
+				Unregistering ...
+2018-07-09 14:12:58.212 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - registration status: 204
+2018-07-09 14:12:58.217 [Thread-2] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - deregister  status: 404
+2018-07-09 14:12:58.222 [Thread-2] INFO  com.netflix.discovery.DiscoveryClient -
+				Completed shut down of DiscoveryClient
+2018-07-09 14:12:58.225 [Thread-2] INFO  o.s.context.support.DefaultLifecycleProcessor -
+				Stopping beans in phase 0
+2018-07-09 14:12:58.234 [Thread-2] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Unregistering JMX-exposed beans on shutdown
+2018-07-09 14:12:58.237 [Thread-2] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Unregistering JMX-exposed beans
+2018-07-09 14:12:58.238 [Thread-2] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Unregistering JMX-exposed beans on shutdown
+2018-07-09 14:12:58.238 [Thread-2] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Unregistering JMX-exposed beans
+2018-07-09 14:13:00.551 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@46a23df3: startup date [Mon Jul 09 14:13:00 CST 2018]; root of context hierarchy
+2018-07-09 14:13:00.604 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 14:13:00.610 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4505060a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-09 14:13:01.974 [restartedMain] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Fetching config from server at: http://localhost:8888
+2018-07-09 14:13:02.980 [restartedMain] WARN  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/mg-sms/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-07-09 14:13:02.983 [restartedMain] INFO  com.chinapnr.mg.sms.App -
+				No active profile set, falling back to default profiles: default
+2018-07-09 14:13:03.008 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4e5506f1: startup date [Mon Jul 09 14:13:03 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@46a23df3
+2018-07-09 14:13:03.041 [restartedMain] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.chinapnr.mg.sms.App]; nested exception is java.io.FileNotFoundException: class path resource [config.properties] cannot be opened because it does not exist
+2018-07-09 14:13:03.046 [restartedMain] ERROR o.s.b.factory.support.DefaultListableBeanFactory -
+				Destroy method on bean with name 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory' threw an exception
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4e5506f1: startup date [Mon Jul 09 14:13:03 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@46a23df3
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:414)
+	at org.springframework.context.support.ApplicationListenerDetector.postProcessBeforeDestruction(ApplicationListenerDetector.java:97)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:556)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.chinapnr.mg.sms.App.main(App.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2018-07-09 14:13:03.057 [restartedMain] ERROR org.springframework.boot.SpringApplication -
+				Application startup failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.chinapnr.mg.sms.App]; nested exception is java.io.FileNotFoundException: class path resource [config.properties] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:181)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:308)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:228)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:93)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:687)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:525)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.chinapnr.mg.sms.App.main(App.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.io.FileNotFoundException: class path resource [config.properties] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:154)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:98)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:72)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.loadProperties(PropertiesLoaderUtils.java:58)
+	at org.springframework.core.io.support.ResourcePropertySource.<init>(ResourcePropertySource.java:65)
+	at org.springframework.core.io.support.DefaultPropertySourceFactory.createPropertySource(DefaultPropertySourceFactory.java:36)
+	at org.springframework.context.annotation.ConfigurationClassParser.processPropertySource(ConfigurationClassParser.java:440)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:271)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:245)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:190)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:292)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:245)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:198)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:167)
+	... 18 common frames omitted
+2018-07-09 14:13:38.249 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5810dfc4: startup date [Mon Jul 09 14:13:38 CST 2018]; root of context hierarchy
+2018-07-09 14:13:38.299 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 14:13:38.303 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4505060a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-09 14:13:39.498 [restartedMain] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Fetching config from server at: http://localhost:8888
+2018-07-09 14:13:40.516 [restartedMain] WARN  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/mg-sms/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-07-09 14:13:40.519 [restartedMain] INFO  com.chinapnr.mg.sms.App -
+				No active profile set, falling back to default profiles: default
+2018-07-09 14:13:40.529 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b333216: startup date [Mon Jul 09 14:13:40 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5810dfc4
+2018-07-09 14:13:40.553 [restartedMain] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.chinapnr.mg.sms.App]; nested exception is java.io.FileNotFoundException: class path resource [dev/*.properties] cannot be opened because it does not exist
+2018-07-09 14:13:40.553 [restartedMain] ERROR o.s.b.factory.support.DefaultListableBeanFactory -
+				Destroy method on bean with name 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory' threw an exception
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b333216: startup date [Mon Jul 09 14:13:40 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5810dfc4
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:414)
+	at org.springframework.context.support.ApplicationListenerDetector.postProcessBeforeDestruction(ApplicationListenerDetector.java:97)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:556)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.chinapnr.mg.sms.App.main(App.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2018-07-09 14:13:40.558 [restartedMain] ERROR org.springframework.boot.SpringApplication -
+				Application startup failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.chinapnr.mg.sms.App]; nested exception is java.io.FileNotFoundException: class path resource [dev/*.properties] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:181)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:308)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:228)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:93)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:687)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:525)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.chinapnr.mg.sms.App.main(App.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.io.FileNotFoundException: class path resource [dev/*.properties] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:154)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:98)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:72)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.loadProperties(PropertiesLoaderUtils.java:58)
+	at org.springframework.core.io.support.ResourcePropertySource.<init>(ResourcePropertySource.java:65)
+	at org.springframework.core.io.support.DefaultPropertySourceFactory.createPropertySource(DefaultPropertySourceFactory.java:36)
+	at org.springframework.context.annotation.ConfigurationClassParser.processPropertySource(ConfigurationClassParser.java:440)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:271)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:245)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:190)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:292)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:245)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:198)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:167)
+	... 18 common frames omitted
+2018-07-09 14:15:00.960 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2858d9f0: startup date [Mon Jul 09 14:15:00 CST 2018]; root of context hierarchy
+2018-07-09 14:15:01.244 [background-preinit] INFO  org.hibernate.validator.internal.util.Version -
+				HV000001: Hibernate Validator 5.3.5.Final
+2018-07-09 14:15:01.505 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 14:15:01.569 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7ad05f02] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-09 14:15:03.316 [restartedMain] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Fetching config from server at: http://localhost:8888
+2018-07-09 14:15:04.458 [restartedMain] WARN  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/mg-sms/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-07-09 14:15:04.462 [restartedMain] INFO  com.chinapnr.mg.sms.App -
+				No active profile set, falling back to default profiles: default
+2018-07-09 14:15:04.493 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@49f92050: startup date [Mon Jul 09 14:15:04 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2858d9f0
+2018-07-09 14:15:04.527 [restartedMain] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.chinapnr.mg.sms.App]; nested exception is java.io.FileNotFoundException: class path resource [dev/*.properties] cannot be opened because it does not exist
+2018-07-09 14:15:04.530 [restartedMain] ERROR o.s.b.factory.support.DefaultListableBeanFactory -
+				Destroy method on bean with name 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory' threw an exception
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@49f92050: startup date [Mon Jul 09 14:15:04 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2858d9f0
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:414)
+	at org.springframework.context.support.ApplicationListenerDetector.postProcessBeforeDestruction(ApplicationListenerDetector.java:97)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:556)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.chinapnr.mg.sms.App.main(App.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2018-07-09 14:15:04.538 [restartedMain] ERROR org.springframework.boot.SpringApplication -
+				Application startup failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.chinapnr.mg.sms.App]; nested exception is java.io.FileNotFoundException: class path resource [dev/*.properties] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:181)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:308)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:228)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:93)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:687)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:525)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.chinapnr.mg.sms.App.main(App.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.io.FileNotFoundException: class path resource [dev/*.properties] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:154)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:98)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:72)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.loadProperties(PropertiesLoaderUtils.java:58)
+	at org.springframework.core.io.support.ResourcePropertySource.<init>(ResourcePropertySource.java:65)
+	at org.springframework.core.io.support.DefaultPropertySourceFactory.createPropertySource(DefaultPropertySourceFactory.java:36)
+	at org.springframework.context.annotation.ConfigurationClassParser.processPropertySource(ConfigurationClassParser.java:440)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:271)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:245)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:190)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:292)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:245)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:198)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:167)
+	... 18 common frames omitted
+2018-07-09 14:16:36.471 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6ab3d0c3: startup date [Mon Jul 09 14:16:36 CST 2018]; root of context hierarchy
+2018-07-09 14:16:36.721 [background-preinit] INFO  org.hibernate.validator.internal.util.Version -
+				HV000001: Hibernate Validator 5.3.5.Final
+2018-07-09 14:16:37.055 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 14:16:37.102 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$97c3785e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-09 14:16:39.160 [restartedMain] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Fetching config from server at: http://localhost:8888
+2018-07-09 14:16:40.271 [restartedMain] WARN  o.s.c.c.client.ConfigServicePropertySourceLocator -
+				Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/mg-sms/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-07-09 14:16:40.271 [restartedMain] INFO  com.chinapnr.mg.sms.App -
+				No active profile set, falling back to default profiles: default
+2018-07-09 14:16:40.334 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2a62856b: startup date [Mon Jul 09 14:16:40 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6ab3d0c3
+2018-07-09 14:16:42.145 [restartedMain] WARN  o.s.c.annotation.ConfigurationClassPostProcessor -
+				Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-07-09 14:16:42.399 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope -
+				BeanFactory id=9fd72b1b-bcac-324b-bd40-01fb388ea9ac
+2018-07-09 14:16:42.418 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -
+				JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-09 14:16:42.516 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$97c3785e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-09 14:16:43.145 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer -
+				Tomcat initialized with port(s): 8763 (http)
+2018-07-09 14:16:43.159 [restartedMain] INFO  org.apache.catalina.core.StandardService -
+				Starting service [Tomcat]
+2018-07-09 14:16:43.160 [restartedMain] INFO  org.apache.catalina.core.StandardEngine -
+				Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-07-09 14:16:43.329 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2018-07-09 14:16:43.330 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader -
+				Root WebApplicationContext: initialization completed in 2996 ms
+2018-07-09 14:16:43.701 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean -
+				Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-09 14:16:43.710 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'metricsFilter' to: [/*]
+2018-07-09 14:16:43.711 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-09 14:16:43.712 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-07-09 14:16:43.712 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -
+				Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-07-09 14:16:44.332 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/send/message]}" onto public java.lang.String com.chinapnr.mg.sms.controller.SmsController.sendMag(java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-09 14:16:44.342 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-09 14:16:44.343 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-09 14:16:44.511 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2a62856b: startup date [Mon Jul 09 14:16:40 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6ab3d0c3
+2018-07-09 14:16:47.362 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:16:47.364 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:16:47.368 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:16:47.371 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:16:47.372 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:16:47.375 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-07-09 14:16:47.376 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:16:47.377 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-07-09 14:16:47.390 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2018-07-09 14:16:47.392 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2018-07-09 14:16:47.395 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-07-09 14:16:47.396 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:16:47.397 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-07-09 14:16:47.398 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-07-09 14:16:47.400 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-07-09 14:16:47.402 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:16:47.403 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2018-07-09 14:16:47.404 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2018-07-09 14:16:47.407 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2018-07-09 14:16:47.411 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2018-07-09 14:16:47.412 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2018-07-09 14:16:47.412 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:16:47.422 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:16:47.423 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:16:47.424 [restartedMain] INFO  o.s.b.actuate.endpoint.mvc.EndpointHandlerMapping -
+				Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-07-09 14:16:47.642 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2018-07-09 14:16:47.788 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2018-07-09 14:16:47.788 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-07-09 14:16:47.804 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2018-07-09 14:16:47.804 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-07-09 14:16:48.147 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Registering beans for JMX exposure on startup
+2018-07-09 14:16:48.163 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-07-09 14:16:48.163 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-07-09 14:16:48.163 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-07-09 14:16:48.163 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2018-07-09 14:16:48.163 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2018-07-09 14:16:48.178 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-07-09 14:16:48.194 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2018-07-09 14:16:48.225 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-07-09 14:16:48.241 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=2a62856b,type=ConfigurationPropertiesRebinder]
+2018-07-09 14:16:48.265 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -
+				Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2018-07-09 14:16:48.267 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Registering beans for JMX exposure on startup
+2018-07-09 14:16:48.584 [restartedMain] INFO  o.s.context.support.DefaultLifecycleProcessor -
+				Starting beans in phase 0
+2018-07-09 14:16:48.599 [restartedMain] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2018-07-09 14:16:49.558 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -
+				Using JSON encoding codec LegacyJacksonJson
+2018-07-09 14:16:49.558 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -
+				Using JSON decoding codec LegacyJacksonJson
+2018-07-09 14:16:49.733 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -
+				Using XML encoding codec XStreamXml
+2018-07-09 14:16:49.733 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -
+				Using XML decoding codec XStreamXml
+2018-07-09 14:16:50.211 [restartedMain] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2018-07-09 14:16:50.772 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Disable delta property : false
+2018-07-09 14:16:50.773 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Single vip registry refresh property : null
+2018-07-09 14:16:50.773 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Force full registry fetch : false
+2018-07-09 14:16:50.774 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Application is null : false
+2018-07-09 14:16:50.774 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Registered Applications size is zero : true
+2018-07-09 14:16:50.775 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Application version is -1: true
+2018-07-09 14:16:50.775 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Getting all instance registry info from the eureka server
+2018-07-09 14:16:51.013 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				The response status is 200
+2018-07-09 14:16:51.013 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Starting heartbeat executor: renew interval is: 30
+2018-07-09 14:16:51.013 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator -
+				InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-07-09 14:16:51.029 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Discovery Client initialized at timestamp 1531117011029 with initial instances count: 5
+2018-07-09 14:16:51.061 [restartedMain] INFO  o.s.c.n.eureka.EurekaDiscoveryClientConfiguration -
+				Registering application mg-sms with eureka with status UP
+2018-07-09 14:16:51.061 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1531117011061, current=UP, previous=STARTING]
+2018-07-09 14:16:51.077 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+2018-07-09 14:16:51.077 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763: registering service...
+2018-07-09 14:16:51.092 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+2018-07-09 14:16:51.108 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2018-07-09 14:16:51.108 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2018-07-09 14:16:51.108 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2018-07-09 14:16:51.108 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2018-07-09 14:16:51.108 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2018-07-09 14:16:51.123 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+2018-07-09 14:16:51.123 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2018-07-09 14:16:51.123 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2018-07-09 14:16:51.139 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2018-07-09 14:16:51.139 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2018-07-09 14:16:51.139 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2018-07-09 14:16:51.139 [restartedMain] INFO  o.s.b.actuate.endpoint.jmx.EndpointMBeanExporter -
+				Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+2018-07-09 14:16:51.191 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8763"]
+2018-07-09 14:16:51.215 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8763"]
+2018-07-09 14:16:51.232 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool -
+				Using a shared selector for servlet write/read
+2018-07-09 14:16:51.248 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - registration status: 204
+2018-07-09 14:16:51.265 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer -
+				Tomcat started on port(s): 8763 (http)
+2018-07-09 14:16:51.280 [restartedMain] INFO  o.s.c.n.eureka.EurekaDiscoveryClientConfiguration -
+				Updating port to 8763
+2018-07-09 14:16:51.280 [restartedMain] INFO  com.chinapnr.mg.sms.App -
+				Started App in 16.577 seconds (JVM running for 18.351)
+2018-07-09 14:16:51.280 [restartedMain] INFO  com.chinapnr.mg.sms.App -
+				ms-sms startup success!
+2018-07-09 14:17:21.062 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - Re-registering apps/MG-SMS
+2018-07-09 14:17:21.062 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763: registering service...
+2018-07-09 14:17:21.141 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - registration status: 204
+2018-07-09 14:17:51.146 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - Re-registering apps/MG-SMS
+2018-07-09 14:17:51.146 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763: registering service...
+2018-07-09 14:17:51.150 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - registration status: 204
+2018-07-09 14:17:53.991 [http-nio-8763-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+				Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-09 14:17:53.992 [http-nio-8763-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+				FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-09 14:17:54.027 [http-nio-8763-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+				FrameworkServlet 'dispatcherServlet': initialization completed in 35 ms
+2018-07-09 14:17:54.106 [http-nio-8763-exec-1] INFO  com.chinapnr.mg.sms.controller.SmsController -
+				sms receive :{"msg":"来自消息网关的消息","code":"000"}
+2018-07-09 14:18:21.154 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - Re-registering apps/MG-SMS
+2018-07-09 14:18:21.154 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763: registering service...
+2018-07-09 14:18:21.159 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - registration status: 204
+2018-07-09 14:18:33.854 [http-nio-8763-exec-1] INFO  com.chinapnr.mg.sms.controller.SmsController -
+				sms response :{"mag":"短信发送失败","code":"001"}
+2018-07-09 14:18:51.164 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - Re-registering apps/MG-SMS
+2018-07-09 14:18:51.165 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763: registering service...
+2018-07-09 14:18:51.169 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - registration status: 204
+2018-07-09 14:19:21.175 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - Re-registering apps/MG-SMS
+2018-07-09 14:19:21.175 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763: registering service...
+2018-07-09 14:19:21.180 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - registration status: 204
+2018-07-09 14:19:51.186 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - Re-registering apps/MG-SMS
+2018-07-09 14:19:51.186 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763: registering service...
+2018-07-09 14:19:51.191 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - registration status: 204
+2018-07-09 14:20:21.196 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - Re-registering apps/MG-SMS
+2018-07-09 14:20:21.196 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763: registering service...
+2018-07-09 14:20:21.201 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - registration status: 204
+2018-07-09 14:20:51.206 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - Re-registering apps/MG-SMS
+2018-07-09 14:20:51.206 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763: registering service...
+2018-07-09 14:20:51.210 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_MG-SMS/http://localhost:8763 - registration status: 204

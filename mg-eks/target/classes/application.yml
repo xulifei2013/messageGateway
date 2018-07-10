@@ -1,0 +1,10 @@
+server:
+  port: 8761 # 注册中心占用8761端口
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/  #访问地址是 http://localhost:8761/
